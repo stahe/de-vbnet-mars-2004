@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://stahe.github.io/de-vbnet-mars-2004/index.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/de-vbnet-mars-2004/----ausfuhrungsthreads.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/de-vbnet-mars-2004/datenbankzugriff.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <loc>https://stahe.github.io/de-vbnet-mars-2004/einfuhrung.html</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/de-vbnet-mars-2004/einleitung.html</loc>
-         <lastmod>2026-05-26</lastmod>
-    </url>
-    <url>
-         <loc>https://stahe.github.io/de-vbnet-mars-2004/ereignisbehandlung.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <loc>https://stahe.github.io/de-vbnet-mars-2004/ereignisverwaltung.html</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/de-vbnet-mars-2004/fortsetzung-folgt.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/de-vbnet-mars-2004/grafische-benutzeroberflachen-mit-vbnet-und-vsnet.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/de-vbnet-mars-2004/grundlagen-der-sprache-vbnet.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/de-vbnet-mars-2004/haufig-verwendete-net-klassen.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <loc>https://stahe.github.io/de-vbnet-mars-2004/haufig-verwendete-klassen-der-plattform-net.html</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/de-vbnet-mars-2004/klassen-strukturen-schnittstellen.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/de-vbnet-mars-2004/tcpip-programmierung.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <loc>https://stahe.github.io/de-vbnet-mars-2004/programmierung-tcp-ip.html</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/de-vbnet-mars-2004/webdienste.html</loc>
-         <lastmod>2026-05-26</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://stahe.github.io/de-vbnet-mars-2004/zugriff-auf-die-datenbanken.html</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
 </urlset>

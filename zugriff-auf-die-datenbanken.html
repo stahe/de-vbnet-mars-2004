@@ -12,10 +12,10 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/de-vbnet-mars-2004/datenbankzugriff.html">
+        <link rel="canonical" href="https://stahe.github.io/de-vbnet-mars-2004/zugriff-auf-die-datenbanken.html">
       
       
-        <link rel="prev" href="ereignisbehandlung.html">
+        <link rel="prev" href="ereignisverwaltung.html">
       
       
         <link rel="next" href="----ausfuhrungsthreads.html">
@@ -29,7 +29,7 @@
     
     
       
-        <title>7. Datenbankzugriff - Einführung in VB.NET anhand von Beispielen</title>
+        <title>7. Zugriff auf die Datenbanken - Einführung in VB.NET anhand von Beispielen</title>
       
     
     
@@ -94,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#7-datenbankzugriff" class="md-skip">
+        <a href="#7-zugriff-auf-die-datenbanken" class="md-skip">
           Skip to content
         </a>
       
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              7. Datenbankzugriff
+              7. Zugriff auf die Datenbanken
             
           </span>
         </div>
@@ -305,14 +305,14 @@
   
   
     <li class="md-nav__item">
-      <a href="einleitung.html" class="md-nav__link">
+      <a href="einfuhrung.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    1. Einleitung
+    1. Einführung
   
 
     
@@ -386,14 +386,14 @@
   
   
     <li class="md-nav__item">
-      <a href="haufig-verwendete-net-klassen.html" class="md-nav__link">
+      <a href="haufig-verwendete-klassen-der-plattform-net.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. Häufig verwendete .NET-Klassen
+    4. Häufig verwendete Klassen der Plattform .NET
   
 
     
@@ -440,14 +440,14 @@
   
   
     <li class="md-nav__item">
-      <a href="ereignisbehandlung.html" class="md-nav__link">
+      <a href="ereignisverwaltung.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Ereignisbehandlung
+    6. Ereignisverwaltung
   
 
     
@@ -483,7 +483,7 @@
   <span class="md-ellipsis">
     
   
-    7. Datenbankzugriff
+    7. Zugriff auf die Datenbanken
   
 
     
@@ -494,14 +494,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="datenbankzugriff.html" class="md-nav__link md-nav__link--active">
+      <a href="zugriff-auf-die-datenbanken.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    7. Datenbankzugriff
+    7. Zugriff auf die Datenbanken
   
 
     
@@ -538,10 +538,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#72-die-beiden-moglichkeiten-zur-verwendung-einer-datenquelle" class="md-nav__link">
+  <a href="#72-die-beiden-betriebsmodi-einer-datenquelle" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.2. Die beiden Möglichkeiten zur Verwendung einer Datenquelle
+        7.2. Die beiden Betriebsmodi einer Datenquelle
       
     </span>
   </a>
@@ -549,22 +549,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#73-zugriff-auf-daten-im-verbundenen-modus" class="md-nav__link">
+  <a href="#73-datenzugriff-im-verbundenen-modus" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3. Zugriff auf Daten im verbundenen Modus
+        7.3. Datenzugriff im verbundenen Modus
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="7.3. Zugriff auf Daten im verbundenen Modus">
+    <nav class="md-nav" aria-label="7.3. Datenzugriff im verbundenen Modus">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#731-die-datenbanken-im-beispiel" class="md-nav__link">
+  <a href="#731-die-datenbanken-des-beispiels" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.1. Die Datenbanken im Beispiel
+        7.3.1. Die Datenbanken des Beispiels
       
     </span>
   </a>
@@ -572,15 +572,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#732-verwendung-eines-odbc-treibers" class="md-nav__link">
+  <a href="#732-verwendung-eines-treibers-odbc" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.2. Verwendung eines ODBC-Treibers
+        7.3.2. Verwendung eines Treibers ODBC
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="7.3.2. Verwendung eines ODBC-Treibers">
+    <nav class="md-nav" aria-label="7.3.2. Verwendung eines Treibers ODBC">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -595,10 +595,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#7322-ausfuhren-von-sql-abfragen" class="md-nav__link">
+  <a href="#7322-abfragen-vom-typ-sql-senden" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.2.2. Ausführen von SQL-Abfragen
+        7.3.2.2. Abfragen vom Typ SQL senden
       
     </span>
   </a>
@@ -606,10 +606,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#7323-arbeiten-mit-dem-ergebnis-einer-select-abfrage" class="md-nav__link">
+  <a href="#7323-auswertung-des-ergebnisses-einer-abfrage-select" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.2.3. Arbeiten mit dem Ergebnis einer SELECT-Abfrage
+        7.3.2.3. Auswertung des Ergebnisses einer Abfrage SELECT
       
     </span>
   </a>
@@ -633,10 +633,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#733-verwendung-eines-ole-db-treibers" class="md-nav__link">
+  <a href="#733-verwendung-eines-treibers-ole-db" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.3. Verwendung eines OLE-DB-Treibers
+        7.3.3. Verwendung eines Treibers OLE DB
       
     </span>
   </a>
@@ -644,10 +644,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#734-eine-tabelle-aktualisieren" class="md-nav__link">
+  <a href="#734-aktualisierung-einer-tabelle" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.4. Eine Tabelle aktualisieren
+        7.3.4. Aktualisierung einer Tabelle
       
     </span>
   </a>
@@ -655,10 +655,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#735-steuerberechnung" class="md-nav__link">
+  <a href="#735-impots" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7.3.5. Steuerberechnung
+        7.3.5. IMPOTS
       
     </span>
   </a>
@@ -712,14 +712,14 @@
   
   
     <li class="md-nav__item">
-      <a href="tcpip-programmierung.html" class="md-nav__link">
+      <a href="programmierung-tcp-ip.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    9. TCP/IP-Programmierung
+    9. Programmierung TCP-IP
   
 
     
@@ -803,9 +803,9 @@
 
 
 
-<h1 id="7-datenbankzugriff">7. <span style="color: #365f91">Datenbankzugriff</span></h1>
+<h1 id="7-zugriff-auf-die-datenbanken">7. <span style="color: #365f91">Zugriff auf die Datenbanken</span></h1>
 <h2 id="71-allgemeines">7.1. <span style="color: #4f81bd">Allgemeines</span></h2>
-<p>Für Windows-Plattformen stehen zahlreiche Datenbanken zur Verfügung. Um darauf zuzugreifen, verwenden Anwendungen Programme, die als Treiber bezeichnet werden. </p>
+<p>Es gibt zahlreiche Datenbanken für Windows-Plattformen. Um darauf zuzugreifen, nutzen die Anwendungen sogenannte <strong>Treiber</strong> (Drivers). </p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005EB000001C27FA19DA5.png" width="680" height="202" style="display:inline-block; margin:4px;width:17.997cm;height:5.346cm;" class="odt-zoomable" data-zoom-src="images/10000000000005EB000001C27FA19DA5.png" /></td></tr></table>
 
 <p>In der obigen Abbildung verfügt der Treiber über zwei Schnittstellen:</p>
@@ -816,40 +816,40 @@
   </li>
 </ul>
 
-<p>Um zu verhindern, dass eine für die Datenbank B1 geschriebene Anwendung bei einer Migration auf eine andere Datenbank B2 neu geschrieben werden muss, wurden Standardisierungsbemühungen für die Schnittstelle I1 unternommen. Wenn Datenbanken mit „standardisierten“ Treibern verwendet werden, wird die Datenbank B1 mit dem Treiber P1 und die Datenbank B2 mit dem Treiber P2 ausgestattet, wobei die I1-Schnittstelle dieser beiden Treiber identisch ist. Somit muss die Anwendung nicht neu geschrieben werden. So können Sie beispielsweise eine ACCESS-Datenbank in eine MySQL-Datenbank migrieren, ohne die Anwendung zu ändern.</p>
+<p>Um zu vermeiden, dass eine für eine Datenbank B1 geschriebene Anwendung bei einer Migration auf eine andere Datenbank B2 neu geschrieben werden muss, wurden Standardisierungsbemühungen an der Schnittstelle I1 unternommen. Bei der Verwendung von Datenbanken mit „normalisierten“ Treibern wird die Datenbank B1 mit einem Treiber P1 bereitgestellt, die Datenbank B2 mit einem Treiber P2, und die Schnittstelle I1 dieser beiden Treiber ist identisch. Daher muss die Anwendung nicht neu geschrieben werden. So kann man beispielsweise eine Datenbank ACCESS auf eine Datenbank MySQL migrieren, ohne die Anwendung zu ändern.</p>
 <p>Es gibt zwei Arten von standardisierten Treibern:</p>
 <ul>
-  <li>ODBC-Treiber (Open DataBase Connectivity)
+  <li>die Treiber ODBC (Open DataBase Connectivity)
   </li>
-  <li>OLE DB-Treiber (Object Linking and Embedding DataBase)
+  <li>die Treiber OLE und DB (Object Linking and Embedding DataBase)
   </li>
 </ul>
 
-<p>ODBC-Treiber ermöglichen den Zugriff auf Datenbanken. Die Datenquellen für OLE DB-Treiber sind vielfältiger: Datenbanken, E-Mail-Systeme, Verzeichnisse usw. Es gibt keine Einschränkungen. Jede Datenquelle kann Gegenstand eines OLE DB-Treibers sein, wenn ein Anbieter dies beschließt. Der Vorteil liegt auf der Hand: Sie haben einheitlichen Zugriff auf eine Vielzahl von Daten.</p>
-<p>Die .NET-Plattform verfügt über zwei Arten von Datenzugriffsklassen:</p>
+<p>Die Treiber ODBC ermöglichen den Zugriff auf Datenbanken. Die Datenquellen für die Treiber OLE und DB sind vielfältiger: Datenbanken, E-Mail-Systeme, Verzeichnisse usw. Es gibt keine Einschränkungen. Jede Datenquelle kann Gegenstand eines Treibers OLE oder DB sein, wenn ein Hersteller dies beschließt. Der Nutzen ist offensichtlich groß: Man erhält einen einheitlichen Zugriff auf eine große Vielfalt an Daten.</p>
+<p>Die Plattform .NET wird mit zwei Arten von Datenzugriffsklassen ausgeliefert:</p>
 <ol>
-  <li>SQL Server.NET-Klassen
+  <li>die Klassen SQL und Server.NET
   </li>
-  <li>OLE DB.NET-Klassen
+  <li>die Klassen OLE und Db.NET
   </li>
 </ol>
 
-<p>Die ersten Klassen ermöglichen den direkten Zugriff auf das SQL Server-DBMS von Microsoft ohne einen zwischengeschalteten Treiber. Die zweiten Klassen ermöglichen den Zugriff auf OLE DB-Datenquellen.</p>
+<p>Die ersten Klassen ermöglichen einen direkten Zugriff auf den Microsoft-Server SGBD SQL ohne zwischengeschalteten Treiber. Die zweiten Klassen ermöglichen den Zugriff auf die Datenquellen OLE DB.</p>
 <p><img src="images/10000000000001E700000071091B80B8.png" width="487" height="113" style="width:12.885cm;height:2.99cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001E700000071091B80B8.png" /></p>
-<p>Die .NET-Plattform wird (Stand: Mai 2002) mit drei OLE-DB-Treibern für SQL Server, Oracle und Microsoft Jet (Access) bereitgestellt. Wenn Sie mit einer Datenbank arbeiten möchten, die über einen ODBC-Treiber, aber keinen OLE-DB-Treiber verfügt, ist dies nicht möglich. Daher können Sie nicht mit dem DBMS MySQL arbeiten, das (Stand Mai 2002) keinen OLE-DB-Treiber bereitstellt. Es gibt jedoch eine Reihe von Klassen, die den Zugriff auf ODBC-Datenquellen ermöglichen: die <strong>odbc.</strong>net-Klassen. Diese sind standardmäßig nicht im SDK enthalten und müssen von der Microsoft-Website heruntergeladen werden. In den folgenden Beispielen werden wir hauptsächlich diese ODBC-Klassen verwenden, da die meisten Datenbanken unter Windows über einen solchen Treiber verfügen. Hier ist beispielsweise eine Liste der auf einem Windows 2000-Rechner installierten ODBC-Treiber (<em>Startmenü/Einstellungen/Systemsteuerung/Verwaltung</em>):</p>
+<p>Die Plattform .NET wird (Stand: Mai 2002) mit drei Treibern OLE, DB für jeweils: SQL Server, Oracle und Microsoft Jet (Access) ausgeliefert. Wenn man mit einer Datenbank arbeiten möchte, für die ein Treiber ODBC, aber kein Treiber OLE oder DB vorhanden ist, ist dies nicht möglich. So kann man nicht mit SGBD und MySQL arbeiten, da diese (Stand Mai 2002) keine Treiber OLE und DB bereitstellen. Es gibt jedoch eine Reihe von Klassen, die den Zugriff auf die Datenquellen ermöglichen: die ODBC- und <strong>odbc.net-</strong>Klassen. Diese sind nicht standardmäßig im Lieferumfang des SDK enthalten und müssen von der Microsoft-Website heruntergeladen werden. In den folgenden Beispielen werden wir vor allem diese Klassen verwenden, da die meisten Datenbanken unter Windows mit einem solchen Treiber ausgeliefert werden. Hier ist beispielsweise eine Liste der auf einem Win 2000-Rechner installierten Treiber ODBC (<em>Startmenü/Einstellungen/Systemsteuerung/Verwaltung</em>):</p>
 <p><img src="images/10000000000001A10000013428F0BB4E.png" width="417" height="308" style="width:11.031cm;height:8.147cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001A10000013428F0BB4E.png" /></p>
-<p>Wählen Sie das Symbol <em>„ODBC-Datenquelle“</em> aus:</p>
+<p>Wählen Sie das Symbol <em>„Datenquelle“ ODBC</em> aus:</p>
 <p><img src="images/10000000000001CE00000176C78341BB.png" width="462" height="374" style="width:12.222cm;height:9.894cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001CE00000176C78341BB.png" /></p>
-<h2 id="72-die-beiden-moglichkeiten-zur-verwendung-einer-datenquelle">7.2. <span style="color: #4f81bd">Die beiden Möglichkeiten zur Verwendung einer Datenquelle</span></h2>
-<p>Die .NET-Plattform ermöglicht es Ihnen, eine Datenquelle auf zwei verschiedene Arten zu nutzen:</p>
+<h2 id="72-die-beiden-betriebsmodi-einer-datenquelle">7.2. <span style="color: #4f81bd">Die beiden Betriebsmodi einer Datenquelle</span></h2>
+<p>Die Plattform .NET ermöglicht die Nutzung einer Datenquelle auf zwei verschiedene Arten:</p>
 <ol>
-  <li>Verbundener Modus
+  <li>Online-Modus
   </li>
   <li>Offline-Modus
   </li>
 </ol>
 
-<p>Im <strong>verbundenen</strong> Modus</p>
+<p>Im <strong>Online</strong>-Modus</p>
 <ol>
   <li>eine Verbindung zur Datenquelle
   </li>
@@ -859,43 +859,43 @@
   </li>
 </ol>
 
-<p>Im <strong>Offline</strong>-Modus</p>
+<p>Im <strong>Offline</strong>-Modus führt die Anwendung folgende Schritte aus:</p>
 <ol>
-  <li>eine Verbindung zur Datenquelle
+  <li>eine Verbindung zur Datenquelle auf
   </li>
   <li>ruft eine Speicherkopie aller oder eines Teils der Daten aus der Quelle ab
   </li>
   <li>schließt die Verbindung
   </li>
-  <li>arbeitet mit der Kopie der Daten im Arbeitsspeicher im Lese-/Schreibmodus
+  <li>arbeitet mit der Speicherkopie der Daten im Lese-/Schreibmodus
   </li>
-  <li>öffnet nach Abschluss der Arbeit eine Verbindung, sendet die geänderten Daten an die Datenquelle, damit diese aktualisiert werden können, und schließt die Verbindung
+  <li>sobald die Arbeit abgeschlossen ist, eine Verbindung herstellt, die geänderten Daten an die Datenquelle sendet, damit diese sie berücksichtigt, und die Verbindung schließt
   </li>
 </ol>
 
-<p>In beiden Fällen ist es der Prozess der Datenverarbeitung und -aktualisierung, der Zeit in Anspruch nimmt. Stellen Sie sich vor, diese Aktualisierungen würden durch einen Benutzer vorgenommen, der Daten eingibt; dieser Vorgang kann mehrere zehn Minuten dauern. Während dieser gesamten Zeit bleibt im verbundenen Modus die Verbindung zur Datenbank bestehen und Änderungen werden sofort übernommen. Im Offline-Modus besteht während der Aktualisierung der Daten keine Verbindung zur Datenbank. Änderungen werden nur an der Kopie im Arbeitsspeicher vorgenommen. Sie werden erst dann auf einmal in der Datenquelle übernommen, wenn alles abgeschlossen ist.</p>
+<p>In beiden Fällen ist es die Verarbeitung und Aktualisierung der Daten, die Zeit in Anspruch nimmt. Stellen wir uns vor, diese Aktualisierungen würden von einem Benutzer vorgenommen, der Daten eingibt – dieser Vorgang kann Dutzende von Minuten dauern. Während dieser gesamten Zeit bleibt im verbundenen Modus die Verbindung zur Datenbank aufrechterhalten und die Änderungen werden sofort übernommen. Im nicht verbundenen Modus besteht während der Datenaktualisierung keine Verbindung zur Datenbank. Die Änderungen werden ausschließlich an der Speicherkopie vorgenommen. Sie werden erst nach Abschluss aller Vorgänge in einem Schritt an die Datenquelle übertragen.</p>
 <p>Was sind die Vor- und Nachteile der beiden Methoden?</p>
 <ul>
-  <li>Eine Verbindung beansprucht Systemressourcen. Bei vielen gleichzeitigen Verbindungen hilft der Offline-Modus, deren Dauer zu minimieren. Dies ist bei Webanwendungen mit Tausenden von Benutzern der Fall.
+  <li>Eine Verbindung beansprucht viele Systemressourcen. Bei vielen gleichzeitigen Verbindungen lässt sich im Offline-Modus deren Dauer auf ein Minimum reduzieren. Dies ist beispielsweise bei Webanwendungen mit Tausenden von Nutzern der Fall.
   </li>
-  <li>Der Nachteil des Offline-Modus ist der heikle Umgang mit gleichzeitigen Aktualisierungen. Benutzer U1 ruft zum Zeitpunkt T1 Daten ab und beginnt, diese zu ändern. Zum Zeitpunkt T2 greift auch Benutzer U2 auf die Datenquelle zu und ruft dieselben Daten ab. In der Zwischenzeit hat Benutzer U1 einige Daten geändert, diese aber noch nicht an die Datenquelle übertragen. U2 arbeitet daher mit Daten, von denen einige fehlerhaft sind. .NET-Klassen bieten Lösungen zur Bewältigung dieses Problems, doch es ist nicht einfach zu lösen.
+  <li>Der Nachteil des Offline-Modus ist die schwierige Handhabung gleichzeitiger Aktualisierungen. Der Benutzer U1 ruft zum Zeitpunkt T1 Daten ab und beginnt, diese zu ändern. Zum Zeitpunkt T2 greift auch der Benutzer U2 auf die Datenquelle zu und erhält dieselben Daten. In der Zwischenzeit hat der Benutzer U1 bestimmte Daten geändert, diese jedoch noch nicht an die Datenquelle übertragen. U2 arbeitet daher mit Daten, von denen einige fehlerhaft sind. Die Klassen .NET bieten Lösungen zur Bewältigung dieses Problems, doch es ist nicht einfach zu lösen.
   </li>
-  <li>Im verbundenen Modus stellen gleichzeitige Datenaktualisierungen durch mehrere Benutzer normalerweise kein Problem dar. Da die Verbindung zur Datenbank aufrechterhalten wird, verwaltet die Datenbank diese gleichzeitigen Aktualisierungen selbst. So sperrt Oracle eine Zeile in der Datenbank, sobald ein Benutzer sie ändert. Sie bleibt gesperrt – und ist somit für andere Benutzer unzugänglich –, bis der Benutzer, der sie geändert hat, die Änderung festschreibt oder rückgängig macht.
+  <li>Im verbundenen Modus stellt die gleichzeitige Aktualisierung von Daten durch mehrere Benutzer normalerweise kein Problem dar. Da die Verbindung zur Datenbank aufrechterhalten bleibt, verwaltet die Datenbank selbst diese gleichzeitigen Aktualisierungen. So sperrt Oracle eine Zeile in der Datenbank, sobald ein Benutzer sie ändert. Sie bleibt gesperrt und ist somit für andere Benutzer unzugänglich, bis derjenige, der sie geändert hat, seine Änderung bestätigt (Commit) oder rückgängig macht (Rollback).
   </li>
-  <li>Wenn Daten über das Netzwerk gemeinsam genutzt werden müssen, sollten Sie den Offline-Modus wählen. Dieser Modus stellt eine Momentaufnahme der Daten in einem Objekt bereit<b>, </b>das<b> als Datensatz</b> bezeichnet wird <b>und </b>als eigenständige Datenbank fungiert. Dieses Objekt kann über das Netzwerk zwischen Rechnern gemeinsam genutzt werden.
+  <li>Wenn die Daten über das Netzwerk übertragen werden sollen, ist der Offline-Modus zu wählen. Er ermöglicht es, eine Momentaufnahme der Daten in einem Objekt namens <b>„Dataset“</b> zu erhalten, das eine eigenständige Datenbank darstellt. Dieses Objekt kann über das Netzwerk zwischen Rechnern übertragen werden.
   </li>
 </ul>
 
-<p>Wir werden zunächst den verbundenen Modus untersuchen.</p>
-<h2 id="73-zugriff-auf-daten-im-verbundenen-modus">7.3. <span style="color: #4f81bd">Zugriff auf Daten im verbundenen Modus</span></h2>
-<h3 id="731-die-datenbanken-im-beispiel">7.3.1. <span style="color: #4f81bd">Die Datenbanken im Beispiel</span></h3>
-<p>Wir betrachten eine Access-Datenbank namens <em>articles.mdb</em>, die nur eine Tabelle namens ARTICLES mit der folgenden Struktur enthält: </p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>name</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Typ</b></div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Code</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">4-stelliger Artikelcode</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Name</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">sein Name (Zeichenkette)</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Preis</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">sein Preis (aktuell)</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>aktueller_Bestand</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">aktueller Lagerbestand (Ganzzahl)</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>min_stock</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">der Mindestbestand (Ganzzahl), unterhalb dessen der Artikel nachbestellt werden muss</div></td></tr></table>
+<p>Wir befassen uns zunächst mit dem verbundenen Modus.</p>
+<h2 id="73-datenzugriff-im-verbundenen-modus">7.3. <span style="color: #4f81bd">Datenzugriff im verbundenen Modus</span></h2>
+<h3 id="731-die-datenbanken-des-beispiels">7.3.1. <span style="color: #4f81bd">Die Datenbanken des Beispiels</span></h3>
+<p>Wir betrachten eine Datenbank mit dem Namen ACCESS, die als <em>articles.mdb</em> bezeichnet wird und nur eine Tabelle namens ARTICLES mit folgender Struktur enthält: </p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>name</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Typ</b></div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Code</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">4-stelliger Artikelcode</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Name</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Name (Zeichenkette)</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>Preis</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">sein Preis (tatsächlicher Preis)</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>stock_actuel</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">sein aktueller Lagerbestand (Ganzzahl)</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><b>stock_minimum</b></div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">der Mindestbestand (ganze Zahl), unterhalb dessen der Artikel nachbestellt werden muss</div></td></tr></table>
 
-<p>Der ursprüngliche Inhalt ist wie folgt:</p>
+<p>Der Ausgangsinhalt lautet wie folgt:</p>
 <p><img src="images/10000000000001EE00000095F53C3FA2.png" width="494" height="149" style="width:13.069cm;height:3.942cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001EE00000095F53C3FA2.png" /></p>
-<p>Wir werden diese Datenbank sowohl über einen ODBC-Treiber als auch über einen OLE DB-Treiber nutzen, um die Ähnlichkeit zwischen den beiden Ansätzen zu veranschaulichen und weil uns für ACCESS beide Treiberarten zur Verfügung stehen. </p>
-<p>Wir werden außerdem eine MySQL-Datenbank namens DBARTICLES verwenden, die dieselbe einzelne Tabelle ARTICLES und denselben Inhalt enthält und über einen ODBC-Treiber zugänglich ist, um zu zeigen, dass die für die Access-Datenbank geschriebene Anwendung nicht geändert werden muss, um die MySQL-Datenbank zu nutzen. Auf die Datenbank DBARTICLES kann ein Benutzer namens <em>admarticles</em> mit dem Passwort <em>mdparticles</em> zugreifen. Der folgende Screenshot zeigt den Inhalt der MySQL-Datenbank:</p>
+<p>Wir werden diese Grundlage sowohl anhand eines Testartikels ODBC als aucheinen Treiber OLE DB verwenden, um die Ähnlichkeit der beiden Ansätze aufzuzeigen und weil uns diese beiden Treiberarten für ACCESS zur Verfügung stehen. </p>
+<p>Wir werden außerdem eine Datenbank MySQL DBARTICLES verwenden, die dieselbe einzige Tabelle ARTICLES enthält, denselben Inhalt und auf die über einen Treiber ODBC zugegriffen wird, um zu zeigen, dass die Anwendung, die für die Nutzung der Datenbank ACCESS geschrieben wurde, nicht geändert werden muss, um die Datenbank MySQL zu verwenden. Auf die Datenbank DBARTICLES kann ein Benutzer namens <em>admarticles</em> mit dem Passwort <em>mdparticles</em> zugreifen. Der folgende Screenshot zeigt den Inhalt der Datenbank MySQL:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">C</span><span class="p">:</span><span class="err">\</span><span class="n">mysql</span><span class="err">\</span><span class="n">bin</span><span class="o">&gt;</span><span class="n">mysql</span><span class="w"> </span><span class="c1">--database=dbarticles --user=admarticles --password=mdparticles</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">Welcome</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">MySQL</span><span class="w"> </span><span class="n">monitor</span><span class="p">.</span><span class="w">  </span><span class="n">Commands</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="err">\</span><span class="k">g</span><span class="p">.</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">Your</span><span class="w"> </span><span class="n">MySQL</span><span class="w"> </span><span class="k">connection</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">server</span><span class="w"> </span><span class="k">version</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">.</span><span class="mi">23</span><span class="p">.</span><span class="mi">49</span><span class="o">-</span><span class="k">max</span><span class="o">-</span><span class="n">debug</span>
@@ -939,65 +939,66 @@
 <a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="n">mysql</span><span class="o">&gt;</span><span class="w"> </span><span class="n">exit</span>
 <a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="n">Bye</span>
 </code></pre></div>
-<p>Um die ACCESS-Datenbank als ODBC-Datenquelle zu definieren, gehen Sie wie folgt vor:</p>
+<p>Um die Basis ACCESS als Datenquelle ODBC zu definieren, gehen Sie wie folgt vor:</p>
 <ul>
-  <li>Öffnen Sie den ODBC-Datenquellen-Manager wie oben gezeigt und wählen Sie die Registerkarte „Benutzer-DSN“ (DSN = Data Source Name)
+  <li>Rufen Sie den Datenquellen-Manager ODBC wie oben gezeigt auf und wählen Sie die Registerkarte „User“ DSN (DSN = Name der Datenquelle)
   </li>
 </ul>
 
 <p><img src="images/10000000000001C900000178527ABF22.png" width="457" height="376" style="width:12.09cm;height:9.947cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001C900000178527ABF22.png" /></p>
 <ul>
-  <li>Fügen Sie über die Schaltfläche <i>„Hinzufügen“</i> eine Quelle hinzu, geben Sie an, dass auf diese Quelle über einen Access-Treiber zugegriffen werden kann, und klicken Sie auf <i>„Fertig stellen</i>“:
+  <li>Fügen Sie über die Schaltfläche <i>Add</i> eine Quelle hinzu, geben Sie an, dass diese Quelle über einen Treiber <i>Access</i> zugänglich ist, und führen Sie <i>Terminer</i> aus:
   </li>
 </ul>
 
 <p><img src="images/10000000000001D10000015616F5969B.png" width="465" height="342" style="width:12.301cm;height:9.047cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001D10000015616F5969B.png" /></p>
 <ul>
-  <li>Benennen Sie die Datenquelle <i>„articles-access</i>“, geben Sie eine Beschreibung Ihrer Wahl ein und wählen Sie über die Schaltfläche <i>„Auswählen“ </i>die <i>.mdb</i>-Datei der Datenbank aus. <i>Klicken Sie</i> abschließend <i>auf „OK</i>“.
+  <li>Geben Sie der Datenquelle den Namen <i>articles-access</i>, fügen Sie eine beliebige Beschreibung hinzu und verwenden Sie die Schaltfläche <i>Sélectionner</i>, um die Datei <i>.mdb </i>aus der Datenbank anzugeben. Beenden Sie den Vorgang mit <i>OK</i>.
   </li>
 </ul>
 
 <p><img src="images/1000000000000208000000A430D8CF0D.png" width="520" height="164" style="width:13.757cm;height:4.339cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/1000000000000208000000A430D8CF0D.png" /></p>
-<p>Die neue Datenquelle wird dann in der Liste der Benutzer-DSNs angezeigt:</p>
+<p>Die neue Datenquelle erscheint dann in der Liste der Benutzerquellen DSN:</p>
 <p><img src="images/10000000000001C9000000B20C6AC387.png" width="457" height="178" style="width:12.09cm;height:4.71cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001C9000000B20C6AC387.png" /></p>
-<p>Um die MySQL-Datenbank „DBARTICLES“ als ODBC-Datenquelle zu definieren, gehen Sie wie folgt vor:</p>
+<p>Um die Datenbank MySQL DBARTICLES als Datenquelle ODBC zu definieren, gehen Sie wie folgt vor:</p>
 <ul>
-  <li>Öffnen Sie den ODBC-Datenquellen-Manager wie oben gezeigt und wählen Sie die Registerkarte<i> „Benutzer-DSNs</i>“. Fügen Sie über <i>„Hinzufügen“</i> eine neue Datenquelle hinzu und wählen Sie den MySQL-ODBC-Treiber aus. 
+  <li>Öffnen Sie den Datenquellen-Manager ODBC wie oben gezeigt und wählen Sie die Registerkarte <i>„User“ (Benutzer) DSN </i>aus. Fügen Sie eine neue Datenquelle mit <i>Add</i> hinzu und wählen Sie den Treiber ODBC von MySQL aus. 
   </li>
 </ul>
 
 <p><img src="images/10000000000001D4000000F62BAB5CA7.png" width="468" height="246" style="width:12.381cm;height:6.509cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001D4000000F62BAB5CA7.png" /></p>
 <ul>
-  <li>Klicken Sie auf <i>„Fertig stellen</i>“. Daraufhin wird eine Konfigurationsseite für die MySQL-Quelle angezeigt:
+  <li>Führen Sie <i>Terminer</i> aus. Daraufhin erscheint eine Konfigurationsseite für die Quelle MySQL:
   </li>
 </ul>
 
 <p>54321</p>
 <p><img src="images/10000000000001C3000000BD7CCC07B0.png" width="451" height="189" style="width:11.931cm;height:5.001cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000001C3000000BD7CCC07B0.png" /></p>
 <ul>
-  <li>Geben Sie unter (1) einen Namen für Ihre ODBC-Datenquelle ein
+  <li>In (1) vergeben wir einen Namen für unsere Datenquelle ODBC
   </li>
-  <li>Geben Sie in (2) den Rechner an, auf dem sich der MySQL-Server befindet. Hier geben wir <i>`localhost` </i>ein, um anzugeben, dass er sich auf demselben Rechner wie unsere Anwendung befindet. Befände sich der MySQL-Server auf einem Remote-Rechner `M`, würden wir hier dessen Namen eingeben, und unsere Anwendung würde dann ohne Änderungen mit einer Remote-Datenbank arbeiten.
+  <li>In (2) geben wir den Rechner an, auf dem sich der Server MySQL befindet. Hier geben wir <i>localhost</i> ein, um anzugeben, dass er sich auf demselben Rechner wie unsere Anwendung befindet. Befände sich der Server MySQL auf einem entfernten Rechner M, würden wir dort dessen Namen eingeben, und unsere Anwendung würde dann ohne Änderungen mit einer entfernten Datenbank arbeiten.
   </li>
-  <li>Geben Sie in (3) den Namen der Datenbank ein. Hier heißt sie DBARTICLES.
+  <li>In (3) geben wir den Namen der Datenbank ein. Hier heißt sie DBARTICLES.
   </li>
-  <li>Geben Sie in (4) den Benutzernamen <i>admarticles </i>und in (5) das Passwort <i>mdparticles </i>ein.
+  <li>In (4) geben wir den Benutzernamen <i>admarticles </i>und in (5) das Passwort <i>mdparticles </i>ein.
   </li>
 </ul>
-<h3 id="732-verwendung-eines-odbc-treibers">7.3.2. <span style="color: #4f81bd">Verwendung eines ODBC-Treibers</span></h3>
-<p>In einer Anwendung, die eine Datenbank im verbundenen Modus nutzt, sind im Allgemeinen die folgenden Schritte erforderlich:</p>
+
+<h3 id="732-verwendung-eines-treibers-odbc">7.3.2. <span style="color: #4f81bd">Verwendung eines Treibers ODBC</span></h3>
+<p>In einer Anwendung, die eine Datenbank im verbundenen Modus nutzt, sind in der Regel folgende Schritte erforderlich:</p>
 <ol>
-  <li>Verbindung zur Datenbank herstellen
+  <li>Verbindung zur Datenbank
   </li>
-  <li>Senden von SQL-Abfragen an die Datenbank
+  <li>Senden von Abfragen SQL an die Datenbank
   </li>
-  <li>Empfangen und Verarbeiten der Ergebnisse dieser Abfragen
+  <li>Empfang und Verarbeitung der Ergebnisse dieser Abfragen
   </li>
   <li>Schließen der Verbindung
   </li>
 </ol>
 
-<p>Die Schritte 2 und 3 werden wiederholt ausgeführt, wobei die Verbindung erst am Ende der Datenbankoperationen geschlossen wird. Dies ist ein relativ gängiges Muster, das Ihnen vielleicht bekannt ist, wenn Sie bereits interaktiv mit einer Datenbank gearbeitet haben. Diese Schritte sind identisch, unabhängig davon, ob der Zugriff auf die Datenbank über einen ODBC-Treiber oder einen OLE-DB-Treiber erfolgt. Nachfolgend finden Sie ein Beispiel für die Verwendung der .NET-Klassen zur Verwaltung von ODBC-Datenquellen. Das Programm heißt <em><code>liste</code></em> und nimmt als Parameter den DSN-Namen einer ODBC-Datenquelle entgegen, die eine Tabelle namens <code>ARTICLES</code> enthält. Anschließend zeigt es den Inhalt dieser Tabelle an:</p>
+<p>Die Schritte 2 und 3 werden wiederholt ausgeführt, wobei das Schließen der Verbindung erst am Ende der Datenbanknutzung erfolgt. Dies ist ein relativ klassisches Schema, mit dem Sie vielleicht bereits vertraut sind, wenn Sie schon einmal eine Datenbank interaktiv genutzt haben. Diese Schritte sind dieselben, unabhängig davon, ob die Datenbank über den Treiber ODBC oder über die Treiber OLE bzw. DB genutzt wird. Im Folgenden stellen wir ein Beispiel mit den Klassen .NET zur Verwaltung der Datenquellen ODBC vor. Das Programm heißt <em>liste</em> und nimmt als Parameter den Namen DSN einer Datenquelle ODBC entgegen, die eine Tabelle ARTICLES enthält. Anschließend zeigt es den Inhalt dieser Tabelle an:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">dos</span><span class="o">&gt;</span><span class="n">liste</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">syntaxe</span> <span class="p">:</span> <span class="n">pg</span> <span class="n">dsnArticles</span>
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
@@ -1030,56 +1031,56 @@
 <a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="n">e300</span> <span class="n">combinaison</span> <span class="n">de</span> <span class="n">plongée</span>         <span class="mi">2800</span> <span class="mi">34</span> <span class="mi">7</span>
 <a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="n">f300</span> <span class="n">bouteilles</span> <span class="n">d</span><span class="s1">&#39;oxygène           800 10 5</span>
 </code></pre></div>
-<p>Aus den obigen Ergebnissen geht hervor, dass das Programm den Inhalt sowohl der ACCESS-Datenbank als auch der MySQL-Datenbank aufgelistet hat. Sehen wir uns nun den Code für dieses Programm an:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vbscript">
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; options</span></span>
+<p>Aus den obigen Ergebnissen geht hervor, dass das Programm sowohl den Inhalt der Datenbank ACCESS als auch den der Datenbank MySQL aufgelistet hat. Sehen wir uns nun den Code dieses Programms an:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vb.net">
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Optionen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Explicit</span> <span style="color:#0000ff">On</span> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Strict</span> <span style="color:#0000ff">On</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; namespaces</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Namensräume</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Data</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.Data.Odbc</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.VisualBasic</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Module</span> db1</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Sub</span> main(<span style="color:#0000ff">ByVal</span> args <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>())</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; application console</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; displays the contents of a ARTICLES table in a DSN database </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; whose name is passed in parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Konsolenanwendung</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; zeigt den Inhalt einer Tabelle ARTICLES aus einer Datenbank DSN an </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27;, deren Name als Parameter übergeben wurde</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Const</span> syntaxe <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;syntaxe : pg dsnArticles&quot;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Const tabArticles As String = &quot;articles&quot;        &#x27; table of articles</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; parameter verification</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; do we have 1 parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Const</span> tabArticles <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;articles&quot;        <span style="font-weight:bold;color:#ff0000">&#x27; la table des articles</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Überprüfung der Parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Gibt es einen Parameter?</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">If</span> args.Length &lt;&gt; 1 <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; error msg</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Error.WriteLine(syntaxe)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; end</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Ende</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Environment.Exit(1)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; parameter is retrieved</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim dsnArticles As String = args(0)                &#x27; the DSN database</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; preparing the connection to the comic</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim articlesConn As OdbcConnection = Nothing        &#x27; the connection</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim myReader As OdbcDataReader = Nothing            &#x27; the data reader</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; attempt to access the database</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Der Parameter wird abgerufen</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> dsnArticles <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = args(0)                <span style="font-weight:bold;color:#ff0000">&#x27; la base DSN</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Vorbereitung der Datenbankverbindung</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> articlesConn <span style="color:#0000ff">As</span> OdbcConnection = <span style="color:#0000ff">Nothing</span>        <span style="font-weight:bold;color:#ff0000">&#x27; la connexion</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> myReader <span style="color:#0000ff">As</span> OdbcDataReader = <span style="color:#0000ff">Nothing</span>            <span style="font-weight:bold;color:#ff0000">&#x27; le lecteur de données</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Zugriff auf die Datenbank wird versucht</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Try</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; base connection chain</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Verbindungszeichenfolge zur Datenbank</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> connectString <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;DSN=&quot; + dsnArticles + &quot;;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn = <span style="color:#0000ff">New</span> OdbcConnection(connectString)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn.Open()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; execution of a SQL command</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Ausführung eines Befehls SQL</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> sqlText <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;select * from &quot; + tabArticles</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> myOdbcCommand <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> OdbcCommand(sqlText)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            myOdbcCommand.Connection = articlesConn</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            myReader = myOdbcCommand.ExecuteReader()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Using the recovered table</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; column display</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Auswertung der abgerufenen Tabelle</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Anzeige der Spalten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> ligne <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> i <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> (myReader.FieldCount - 1) - 1</span></span>
@@ -1087,10 +1088,10 @@
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Next</span> i</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            ligne += myReader.GetName(i)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Out.WriteLine((ControlChars.Lf + &quot;&quot;.PadLeft(ligne.Length, &quot;-&quot;c) + ControlChars.Lf + ligne + ControlChars.Lf + &quot;&quot;.PadLeft(ligne.Length, &quot;-&quot;c) + ControlChars.Lf))</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; data display</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Anzeige der Daten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">While</span> myReader.Read()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; current line operation</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Auswertung der aktuellen Zeile</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                ligne = &quot;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> myReader.FieldCount - 1</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    ligne += myReader(i).ToString + &quot; &quot;</span></span>
@@ -1101,162 +1102,162 @@
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Error.WriteLine((&quot;Erreur d&#x27;exploitation de la base de données &quot; + ex.Message + &quot;)&quot;))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Environment.Exit(2)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Finally</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; drive lock</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Leser schließen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            myReader.Close()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; locking connection</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Verbindung schließen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn.Close()</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">End</span> <span style="color:#0000ff">Sub</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">End</span> <span style="color:#0000ff">Module</span></span></span>
 </code></pre></div>
 
-<p>Die ODBC-Quellverwaltungs-Klassen befinden sich im Namespace <em>„Microsoft.Data.Odbc</em>“, der daher importiert werden muss. Darüber hinaus befinden sich einige Klassen im Namespace <em>„System.Data</em>“.</p>
-<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
+<p>Die Klassen zur Verwaltung der Quellen ODBC befinden sich im Namensraum <em>Microsoft.Data.Odbc</em>, der daher importiert werden muss. Außerdem befinden sich einige Klassen im Namensraum <em>System.Data</em>.</p>
+<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-vb.net">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Data</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.Data.Odbc</span></span>
 </code></pre></div>
 
-<p>Die vom Programm verwendeten Namespaces befinden sich in verschiedenen Assemblies. Kompilieren Sie das Programm mit dem folgenden Befehl:</p>
+<p>Die vom Programm verwendeten Namensräume befinden sich in verschiedenen Assemblies. Das Programm wird mit dem folgenden Befehl kompiliert:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>dos&gt;vbc /r:microsoft.data.odbc.dll /r:microsoft.visualbasic.dll /r:system.dll /r:system.data.dll db1.vb
 </code></pre></div>
 <h4 id="7321-die-verbindungsphase">7.3.2.1. <span style="color: #4f81bd">Die Verbindungsphase</span></h4>
-<p>Eine ODBC-Verbindung nutzt die Klasse <em><code>OdbcConnection</code></em>. Der Konstruktor dieser Klasse nimmt als Parameter eine sogenannte <strong>Verbindungszeichenfolge</strong> entgegen. Dabei handelt es sich um eine Zeichenfolge, die alle Parameter definiert, die für den Aufbau der Verbindung zur Datenbank erforderlich sind. Da es viele solcher Parameter geben kann, ist die Zeichenfolge oft komplex. Die Zeichenfolge hat die Form <em>„param1=value1;param2=value2;...;paramj=valuej;</em>“. Hier sind einige mögliche „paramj“-Parameter:</p>
+<p>Eine Verbindung ODBC verwendet die Klasse <em>OdbcConnection</em>. Der Konstruktor dieser Klasse akzeptiert als Parameter eine sogenannte <strong>Verbindungszeichenfolge</strong>. Dabei handelt es sich um eine Zeichenfolge, die alle notwendigen Parameter definiert, damit die Verbindung zur Datenbank hergestellt werden kann. Diese Parameter können sehr zahlreich sein, wodurch die Zeichenfolge komplex werden kann. Die Zeichenfolge hat die Form <em>&quot;param1=valeur1;param2=valeur2;...;paramj=valeurj;&quot;</em>. Hier sind einige mögliche Parameter für <em>paramj</em>:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>uid
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Benutzername des Benutzers, der auf die Datenbank zugreifen wird</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Passwort
+</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Name eines Benutzers, der auf die Datenbank zugreifen wird</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>password
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">das Passwort dieses Benutzers</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
+</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Passwort dieses Benutzers</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>dsn
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">der DSN-Name der Datenbank, falls vorhanden</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>Datenquelle
+</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Name der Datenbank (falls vorhanden): DSN</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>data source
 </code></pre></div>
 </div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Name der Datenbank, auf die zugegriffen wird</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>...
 </code></pre></div>
 </div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Wenn Sie eine Datenquelle mithilfe des ODBC-Datenquellen-Administrators als ODBC-Datenquelle definieren, wurden diese Parameter bereits festgelegt und gespeichert. In diesem Fall müssen Sie lediglich den DSN-Parameter übergeben, der den DSN-Namen der Datenquelle angibt. Genau das geschieht hier:</p>
+<p>Wenn man eine Datenquelle mithilfe des Datenquellen-Managers ODBC als Datenquelle ODBC definiert, wurden diese Parameter bereits angegeben und gespeichert. Es reicht dann aus, den Parameter DSN zu übergeben, der den Namen DSN der Datenquelle angibt. Dies geschieht hier wie folgt:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-vbscript">
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; preparing the connection to the comic</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim articlesConn As OdbcConnection = Nothing        &#x27; the connection</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim myReader As OdbcDataReader = Nothing        &#x27; the data reader</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Vorbereitung der Datenbankverbindung</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> articlesConn <span style="color:#0000ff">As</span> OdbcConnection = <span style="color:#0000ff">Nothing</span>        &#x27; la connexion</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> myReader <span style="color:#0000ff">As</span> OdbcDataReader = <span style="color:#0000ff">Nothing</span>        &#x27; le lecteur de données</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Try</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; attempt to access the database</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; base connection chain</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Zugriff auf die Datenbank wird versucht</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Verbindungszeichenfolge zur Datenbank</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> connectString <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;DSN=&quot; + dsnArticles + &quot;;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn = <span style="color:#0000ff">New</span> OdbcConnection(connectString)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn.Open()</span></span>
 </code></pre></div>
 
-<p>Sobald das OdbcConnection-Objekt erstellt ist, öffnen wir die Verbindung mit der Open-Methode. Dieser Vorgang kann fehlschlagen, genau wie jeder andere Datenbankvorgang. Deshalb ist der gesamte Code für den Datenbankzugriff in einem <em>try-catch-Block</em> eingeschlossen. Sobald die Verbindung hergestellt ist, können wir SQL-Abfragen an die Datenbank senden.</p>
-<h4 id="7322-ausfuhren-von-sql-abfragen">7.3.2.2. <span style="color: #4f81bd">Ausführen von SQL-Abfragen</span></h4>
-<p>Um SQL-Abfragen auszuführen, benötigen wir ein Command-Objekt – genauer gesagt ein <em>OdbcCommand</em>-Objekt, da wir eine ODBC-Datenquelle verwenden. Die <em>OdbcCommand</em>-Klasse verfügt über mehrere Konstruktoren:</p>
+<p>Sobald das Objekt <em>OdbcConnection</em> erstellt ist, wird die Verbindung mit der Methode <em>Open</em> geöffnet. Diese Verbindung kann wie jeder andere Vorgang in der Datenbank fehlschlagen. Aus diesem Grund befindet sich der gesamte Code für den Datenbankzugriff in einem <em>try-catch</em>. Sobald die Verbindung hergestellt ist, können Abfragen vom Typ SQL an die Datenbank gesendet werden.</p>
+<h4 id="7322-abfragen-vom-typ-sql-senden">7.3.2.2. <span style="color: #4f81bd">Abfragen vom Typ SQL senden</span></h4>
+<p>Um Abfragen vom Typ SQL auszuführen, benötigen wir ein Objekt <em>vom Typ Command</em>, genauer gesagt ein Objekt <em>vom Typ OdbcCommand</em>, da wir eine Datenquelle vom Typ ODBC verwenden. Die Klasse <em>OdbcCommand</em> verfügt über mehrere Konstruktoren:</p>
 <ul>
-  <li><i>OdbcCommand()</i>: Erstellt ein leeres Command-Objekt. Um es zu verwenden, müssen Sie später verschiedene Eigenschaften angeben:
+  <li><i>OdbcCommand()</i>: Erstellt ein leeres Objekt <i>vom Typ Command</i>. Um es zu verwenden, müssen später verschiedene Eigenschaften festgelegt werden:
     <ul>
-      <li><b>CommandText</b>: der Text der auszuführenden SQL-Abfrage
+      <li><b>CommandText</b>: der Text der auszuführenden Abfrage SQL
       </li>
-      <li><b>Connection</b>: das <i>OdbcConnection</i>-Objekt, das die Verbindung zur Datenbank darstellt, auf der die Abfrage ausgeführt wird
+      <li><b>Connection</b>: das Objekt <i>OdbcConnection, </i>das die Verbindung zur Datenbank darstellt, auf der die Abfrage ausgeführt wird
       </li>
-      <li><b>CommandType</b>: der Typ der SQL-Abfrage. Es gibt drei mögliche Werte
+      <li><b>CommandType</b>: Der Typ der Abfrage SQL. Es gibt drei mögliche Werte
       </li>
     </ul>
   </li>
 </ul>
 <ol>
-  <li><i>CommandType.Text</i>: Die <i>CommandText</i>-Eigenschaft enthält den Text einer SQL-Abfrage (Standardwert)
+  <li><i>CommandType.Text</i>: Die Eigenschaft <i>CommandText </i>enthält den Text einer Abfrage vom Typ SQL (Standardwert)
   </li>
-  <li><i>CommandType.StoredProcedure</i>: Die CommandText-Eigenschaft enthält den Namen einer gespeicherten Prozedur in der Datenbank
+  <li><i>CommandType.StoredProcedure</i>: Die Eigenschaft <i>CommandText </i>enthält den Namen einer in der Datenbank gespeicherten gespeicherten Prozedur
   </li>
-  <li><i>CommandType.TableDirect</i>: Die CommandText-Eigenschaft enthält den Namen einer Tabelle T. Entspricht <i>`SELECT * FROM T</i>`. Existiert nur für OLE-DB-Treiber.
+  <li><i>CommandType.TableDirect</i>: Die Eigenschaft <i>CommandText </i>enthält den Namen einer Tabelle T. Entspricht <i>„select * from T</i>“. Existiert nur für die Treiber OLE und DB.
   </li>
 </ol>
 <ul>
-  <li><i>OdbcCommand(string sqlText)</i>: Der Parameter <i>sqlText </i>wird der Eigenschaft <i>CommandText</i> zugewiesen. Dies ist der Text der auszuführenden SQL-Abfrage. Die Verbindung muss in der Eigenschaft <i>Connection</i> angegeben werden.
+  <li><i>OdbcCommand(string sqlText)</i>: Der Parameter <i>sqlText </i>wird der Eigenschaft <i>CommandText</i> zugewiesen. Dies ist der Text der auszuführenden Abfrage SQL. Die Verbindung muss in der Eigenschaft <i>Connection</i> angegeben werden.
   </li>
-  <li><i>OdbcCommand(string sqlText, OdbcConnection connection)</i>: Der Parameter <i>sqlText </i>wird der Eigenschaft <i>CommandText</i> zugewiesen, der Parameter <i>connection </i>der Eigenschaft <i>Connection</i>.
+  <li><i>OdbcCommand(string sqlText, OdbcConnection Verbindung)</i>: Der Parameter <i>sqlText </i>wird der Eigenschaft <i>CommandText</i> zugewiesen und der Parameter <i>connexion </i>der Eigenschaft <i>Connection</i>.
   </li>
 </ul>
 
-<p>Zur Ausführung der SQL-Abfrage stehen zwei Methoden zur Verfügung:</p>
+<p>Um die Abfrage SQL auszuführen, stehen zwei Methoden zur Verfügung:</p>
 <ul>
-  <li><b>OdbcDataReader ExecuteReader()</b>: Sendet die SELECT-Abfrage aus <i>CommandText </i>an die <i>Verbindung </i>und erstellt ein <i>OdbcDataReader</i>-Objekt, das Zugriff auf alle Zeilen in der Ergebnistabelle <i>der SELECT-Abfrage</i> bietet
+  <li><b>OdbcdataReader ExecuteReader()</b>: sendet die Abfrage SELECT von <i>CommandText </i>an die Verbindung <i>Connection </i>und erstellt ein Objekt <i>OdbcDataReader</i>, das denZugriff auf alle Zeilen der Ergebnistabelle von <i>select</i>
   </li>
-  <li><b>int ExecuteNonQuery()</b>: Sendet die Update-Abfrage (INSERT, UPDATE, DELETE) aus <i>CommandText </i>an die <i>Connection </i>und gibt die Anzahl der von der Aktualisierung betroffenen Zeilen zurück.
+  <li><b>int ExecuteNOnQuery()</b>: Sendet die Aktualisierungsanfrage (INSERT, UPDATE, DELETE) von <i>CommandText </i>an die Verbindung <i>Connection </i>und gibt die Anzahl der von dieser Aktualisierung betroffenen Zeilen zurück.
   </li>
 </ul>
 
-<p>In unserem Beispiel führen wir nach dem Öffnen der Datenbankverbindung eine SQL-SELECT-Abfrage aus, um den Inhalt der Tabelle ARTICLES abzurufen:</p>
+<p>In unserem Beispiel senden wir nach dem Öffnen der Datenbankverbindung eine Abfrage SQL SELECT, um den Inhalt der Tabelle ARTICLES abzurufen:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-sql">
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; exécution d&#x27;une commande SQL</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Ausführung eines Befehls SQL</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> sqlText <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;select * from &quot; + tabArticles</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> myOdbcCommand <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> OdbcCommand(sqlText)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            myOdbcCommand.Connection = articlesConn</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            myReader = myOdbcCommand.ExecuteReader()</span></span>
 </code></pre></div>
 
-<p>Eine Abfrage hat in der Regel den folgenden Typ:</p>
+<p>Eine Abfrage ist in der Regel eine Abfrage vom Typ:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="w">    </span><span class="k">select</span><span class="w"> </span><span class="n">col1</span><span class="p">,</span><span class="w"> </span><span class="n">col2</span><span class="p">,...</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">table1</span><span class="p">,</span><span class="w"> </span><span class="n">table2</span><span class="p">,...</span>
 <a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="w">    </span><span class="k">where</span><span class="w"> </span><span class="n">condition</span>
 <a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">    </span><span class="k">order</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="n">expression</span>
 <a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">    </span><span class="p">...</span>
 </code></pre></div>
-<p>Nur die Schlüsselwörter in der ersten Zeile sind erforderlich; die anderen sind optional. Es gibt weitere Schlüsselwörter, die hier nicht aufgeführt sind.</p>
+<p>Nur die Schlüsselwörter in der ersten Zeile sind obligatorisch, die anderen sind optional. Es gibt weitere Schlüsselwörter, die hier nicht aufgeführt sind.</p>
 <ol>
-  <li>Eine Verknüpfung wird für alle Tabellen durchgeführt, die nach dem Schlüsselwort `<b>FROM</b>` aufgeführt sind
+  <li>Es wird eine Verknüpfung mit allen Tabellen hergestellt, die hinter dem Schlüsselwort <b>„from“</b> stehen
   </li>
-  <li>Es werden nur die Spalten beibehalten, die auf das Schlüsselwort `<b>select` </b>folgen
+  <li>Nur die Spalten, die hinter dem Schlüsselwort <b>„select“</b> stehen, werden beibehalten
   </li>
-  <li>Es werden nur die Zeilen beibehalten, die die Bedingung des `<b>where`</b>-Schlüsselworts erfüllen
+  <li>Es werden nur die Zeilen beibehalten, die die Bedingung des Schlüsselworts <b>„where“</b> erfüllen
   </li>
-  <li>Die resultierenden Zeilen, sortiert nach dem Ausdruck im Schlüsselwort<b> `ORDER BY`</b>, bilden das Ergebnis der Abfrage.
+  <li>Die resultierenden Zeilen, sortiert nach dem Ausdruck des Schlüsselworts <b>„order by“, </b>bilden das Ergebnis der Abfrage.
   </li>
 </ol>
 
-<p>Das Ergebnis eines <em><code>SELECT</code></em> ist eine Tabelle. Wenn wir die vorherige <code>ARTICLES</code>-Tabelle betrachten und die Namen der Artikel abrufen möchten, deren aktueller Lagerbestand unter dem Mindestschwellenwert liegt, würden wir schreiben:</p>
+<p>Das Ergebnis von <em>„select“</em> ist eine Tabelle. Wenn man die vorherige Tabelle „ARTICLES“ betrachtet und die Namen der Artikel ermitteln möchte, deren aktueller Lagerbestand unter dem Mindestschwellenwert liegt, schreibt man:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="w">    </span><span class="k">select</span><span class="w"> </span><span class="n">nom</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">articles</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="n">stock_actuel</span><span class="o">&lt;</span><span class="n">stock_minimum</span>
 </code></pre></div>
-<p>Wenn wir sie alphabetisch nach Namen sortiert haben möchten, würden wir schreiben:</p>
+<p>Wenn man sie in alphabetischer Reihenfolge der Namen haben möchte, schreibt man:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="w">    </span><span class="k">select</span><span class="w"> </span><span class="n">nom</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">articles</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="n">stock_actuel</span><span class="o">&lt;</span><span class="n">stock_minimum</span><span class="w"> </span><span class="k">order</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="n">nom</span>
 </code></pre></div>
-<h4 id="7323-arbeiten-mit-dem-ergebnis-einer-select-abfrage">7.3.2.3. <span style="color: #4f81bd">Arbeiten mit dem Ergebnis einer SELECT-Abfrage</span></h4>
-<p>Das Ergebnis einer SELECT-Abfrage im Offline-Modus ist ein <em>Data</em>Reader-Objekt, in diesem Fall ein OdbcDataReader-Objekt. Mit diesem Objekt können Sie alle Zeilen des Ergebnisses nacheinander abrufen und Informationen zu den Spalten in diesen Ergebnissen erhalten. Sehen wir uns einige Eigenschaften und Methoden dieser Klasse an:</p>
+<h4 id="7323-auswertung-des-ergebnisses-einer-abfrage-select">7.3.2.3. <span style="color: #4f81bd">Auswertung des Ergebnisses einer Abfrage SELECT</span></h4>
+<p>Das Ergebnis einer Abfrage SELECT im Offline-Modus ist ein Objekt <em>DataReader</em>, hier ein Objekt <em>OdbcDataReader</em>. Mit diesem Objekt lassen sich nacheinander alle Zeilen des Ergebnisses abrufen und Informationen zu den Spalten dieser Ergebnisse erhalten. Sehen wir uns einige Eigenschaften und Methoden dieser Klasse an:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>FieldCount
 </code></pre></div>
 </div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">die Anzahl der Spalten in der Tabelle</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>Item
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><i>Item(i) </i>steht für die Spalte Nummer i der aktuellen Zeile im Ergebnis</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
+</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0"><i>Item(i) </i>steht für die Spalte Nr. i der aktuellen Zeile des Ergebnisses</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>XXX GetXXX(i)
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Der Wert der Spalte i der aktuellen Zeile, zurückgegeben als Typ XXX (Int16, Int32, Int64, Double, String, Boolean, ...)</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
+</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Der Wert der Spalte Nr. i der aktuellen Zeile, dargestellt als Typ XXX (Int16, Int32, Int64, Double, String, Boolean, ...)</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>string GetName(i)
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Name der Spalte Nummer i</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
+</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Name der Spalte Nr. i</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>Close()
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">schließt das <i>OdbcdataReader</i>-Objekt und gibt die zugehörigen Ressourcen frei</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
+</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">schließt das Objekt <i>OdbcdataReader </i>und gibt die zugehörigen Ressourcen frei</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div markdown="block">
 <div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>bool Read()
 </code></pre></div>
-</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">springt in der Ergebnistabelle um eine Zeile vor. Gibt false zurück, wenn dies nicht möglich ist. Die neue Zeile wird zur aktuellen Zeile des Readers.</div></td></tr></table>
+</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">Wechselt in der Ergebnistabelle um eine Zeile weiter. Gibt „false“ zurück, wenn dies nicht möglich ist. Die neue Zeile wird zur aktuellen Zeile des Lesers.</div></td></tr></table>
 
-<p>Die Verarbeitung des Ergebnisses einer <em>SELECT-Anweisung</em> ist in der Regel ein sequenzieller Vorgang, ähnlich wie bei Textdateien: Man kann sich in der Tabelle nur vorwärts bewegen, nicht rückwärts:</p>
+<p>Die Auswertung des Ergebnisses eines <em>select</em> erfolgt typischerweise sequenziell, ähnlich wie bei Textdateien: Man kann sich in der Tabelle nur vorwärts bewegen, nicht rückwärts:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">While</span> myReader.Read()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; on a une ligne - on l&#x27;exploite</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; Es liegt eine Zeile vor – diese wird ausgewertet</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    ....</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; ligne suivante</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; nächste Zeile</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">end while</span></span>
 </code></pre></div>
 
-<p>Diese Erläuterungen reichen aus, um den folgenden Code in unserem Beispiel zu verstehen:</p>
+<p>Diese Erläuterungen reichen aus, um den folgenden Code aus unserem Beispiel zu verstehen:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-csharp">
-<span class="odt-code-line"><span class="odt-code-line-content">            <span style="font-weight:bold;color:#ff0000">&#x27; Exploitation de la table récupérée</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            <span style="font-weight:bold;color:#ff0000">&#x27; affichage des colonnes</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Auswertung der abgerufenen Tabelle</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Anzeige der Spalten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> ligne <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> i <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> (myReader.FieldCount - 1) - 1</span></span>
@@ -1264,10 +1265,10 @@
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Next</span> i</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            ligne += myReader.GetName(i)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Out.WriteLine((ControlChars.Lf + &quot;&quot;.PadLeft(ligne.Length, &quot;-&quot;c) + ControlChars.Lf + ligne + ControlChars.Lf + &quot;&quot;.PadLeft(ligne.Length, &quot;-&quot;c) + ControlChars.Lf))</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            <span style="font-weight:bold;color:#ff0000">&#x27; affichage des données</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Anzeige der Daten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">While</span> myReader.Read()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                <span style="font-weight:bold;color:#ff0000">&#x27; exploitation ligne courante</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Auswertung der aktuellen Zeile</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                ligne = &quot;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> myReader.FieldCount - 1</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    ligne += myReader(i).ToString + &quot; &quot;</span></span>
@@ -1283,89 +1284,89 @@
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">Next</span> i</span></span>
 </code></pre></div>
 
-<p>Die Notation <em>line+=myReader(i).ToString</em> wird in <em>line+=myReader.Item(i).ToString()</em> übersetzt<em>,</em> wobei <em>Item(i)</em> der Wert der Spalte i in der aktuellen Zeile ist.</p>
-<h4 id="7324-freigabe-von-ressourcen">7.3.2.4. <span style="color: #4f81bd"><strong><em><span style="color: #4f81bd">Freigabe von Ressourcen</span></em></strong></span></h4>
-<p>Die Klassen <em>OdbcReader</em> und <em>OdbcConnection</em> verfügen beide über eine <strong>Close()</strong>-Methode, die die mit den geschlossenen Objekten verbundenen Ressourcen freigibt.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>                &#39; fermeture lecteur
+<p>Die Notation <em>„Zeile+=myReader(i).ToString“</em> wird übersetzt als <em>„Zeile+=myReader.Item(i)“.ToString(),</em> wobei <em>Item(i)</em> der Wert der Spalte i der aktuellen Zeile ist.</p>
+<h4 id="7324-freigabe-von-ressourcen">7.3.2.4. <span style="color: #4f81bd">Freigabe von Ressourcen</span></h4>
+<p>Die Klassen <em>OdbcReader</em> und <em>OdbcConnection</em> verfügen beide über eine Methode <strong>Close(),</strong> die die mit den so geschlossenen Objekten verbundenen Ressourcen freigibt.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>                &#39; Leser schließen
 <a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>                myReader.Close()
-<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>                &#39; fermeture connexion
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>                &#39; Verbindung schließen
 <a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>                articlesConn.Close()
 </code></pre></div>
-<h3 id="733-verwendung-eines-ole-db-treibers">7.3.3. <span style="color: #4f81bd">Verwendung eines OLE-DB-Treibers</span></h3>
-<p>Wir verwenden dasselbe Beispiel, diesmal jedoch mit einer Datenbank, auf die über einen OLE-DB-Treiber zugegriffen wird. Die .NET-Plattform stellt einen solchen Treiber für Access-Datenbanken bereit. Wir verwenden also dieselbe Datenbank <em>„articles.mdb“</em> wie zuvor. Unser Ziel ist es hier zu zeigen, dass sich zwar die Klassen ändern können, die Konzepte jedoch dieselben bleiben:</p>
+<h3 id="733-verwendung-eines-treibers-ole-db">7.3.3. <span style="color: #4f81bd">Verwendung eines Treibers OLE DB</span></h3>
+<p>Wir greifen dasselbe Beispiel wieder auf, diesmal mit einer Datenbank, auf die über einen Treiber OLE DB zugegriffen wird. Die Plattform .NET stellt einen solchen Treiber für Datenbanken vom Typ ACCESS bereit. Daher verwenden wir dieselbe Datenbank <em>articles.mdb</em> wie zuvor. Wir möchten hier zeigen, dass sich zwar die Klassen ändern, die Konzepte jedoch dieselben bleiben:</p>
 <ul>
-  <li>Die Verbindung wird durch ein <b>OleDbConnection</b>-Objekt dargestellt
+  <li>Die Verbindung wird durch ein Objekt <b>OleDbConnection</b> dargestellt
   </li>
-  <li>eine SQL-Abfrage wird mithilfe eines <b>OleDbCommand</b>-Objekts ausgeführt
+  <li>eine Abfrage SQL wird mithilfe eines Objekts <b>OleDbCommand</b> gesendet
   </li>
-  <li>wenn es sich bei dieser Abfrage um eine SELECT-Anweisung handelt, wird ein OleDbDataReader-Objekt zurückgegeben, um auf die Zeilen der Ergebnistabelle zuzugreifen
+  <li>Wenn es sich bei dieser Abfrage um eine Klausel SELECT handelt, wird als Rückgabewert ein Objekt <b>OleDbDataReader</b> zurückgegeben, um auf die Zeilen der Ergebnistabelle zuzugreifen
   </li>
 </ul>
 
-<p>Diese Klassen befinden sich im Namespace <em>„System.Data.OleDb</em>“. Das vorherige Programm lässt sich leicht anpassen, um mit einer OLE-DB-Datenbank zu arbeiten:</p>
+<p>Diese Klassen befinden sich im Namensraum <em>System.Data.OleDb</em>. Das vorstehende Programm lässt sich leicht so umgestalten, dass es eine Datenbank vom Typ OLE DB verarbeitet:</p>
 <ul>
-  <li>Ersetzen Sie überall OdbcXX durch OleDbXX
+  <li>Man ersetzt überall OdbcXX durch OleDbXX
   </li>
-  <li>Ändern Sie die Verbindungszeichenfolge. Für eine ACCESS-Datenbank ohne Anmelde- und Passwortangabe lautet die Verbindungszeichenfolge <i>Provider=Microsoft.JET.OLEDB.4.0;Data Source=[file.mdb]</i>. Der konfigurierbare Teil dieser Zeichenfolge ist der Name der zu verwendenden ACCESS-Datei. Wir werden unser Programm so ändern, dass es den Namen dieser Datei als Parameter akzeptiert.
+  <li>die Verbindungszeichenfolge wird angepasst. Für eine Datenbank mit der Kennung ACCESS ohne Login/Passwort lautet die Verbindungszeichenfolge <i>Provider=Microsoft.JET.OLEDB.4.0;Data Source=[fichier.mdb]</i>. Der konfigurierbare Teil dieser Zeichenfolge ist der Name der zu verwendenden Datei ACCESS. Wir werden unser Programm so anpassen, dass es den Namen dieser Datei als Parameter akzeptiert.
   </li>
   <li>Der zu importierende Namespace lautet nun <i>System.Data.OleDb</i>.
   </li>
 </ul>
 
 <p>Unser Programm sieht nun wie folgt aus:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vbscript">
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; options</span></span>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vb.net">
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Optionen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Explicit</span> <span style="color:#0000ff">On</span> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Strict</span> <span style="color:#0000ff">On</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; namespaces</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Namensräume</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Data</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.Data.Odbc</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.VisualBasic</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Data.OleDb</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Module</span> db2</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Public</span> <span style="color:#0000ff">Sub</span> Main(<span style="color:#0000ff">ByVal</span> args() <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; application console</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; displays the contents of a ARRTICLES table in a DSN database </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; whose name is passed in parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Konsolenanwendung</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; zeigt den Inhalt einer Tabelle ARRTICLES aus einer Datenbank DSN an </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27;, deren Name als Parameter übergeben wurde</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Const</span> syntaxe <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;syntaxe : pg base_access_articles&quot;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Const tabArticles As String = &quot;articles&quot;        &#x27; table of articles</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; parameter verification</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; do we have 1 parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Const</span> tabArticles <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;articles&quot;        <span style="font-weight:bold;color:#ff0000">&#x27; la table des articles</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Überprüfung der Parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Gibt es einen Parameter?</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">If</span> args.Length &lt;&gt; 1 <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; error msg</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Error.WriteLine(syntaxe)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; end</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Ende</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Environment.Exit(1)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; parameter is retrieved</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim dbArticles As String = args(0)        &#x27; the database</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; preparing the connection to the comic</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim articlesConn As OleDbConnection = Nothing        &#x27; the connection</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim myReader As OleDbDataReader = Nothing        &#x27; the data reader</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; attempt to access the database</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Parameter wird abgerufen</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> dbArticles <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = args(0)        <span style="font-weight:bold;color:#ff0000">&#x27; la base de données</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Vorbereitung der Datenbankverbindung</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> articlesConn <span style="color:#0000ff">As</span> OleDbConnection = <span style="color:#0000ff">Nothing</span>        <span style="font-weight:bold;color:#ff0000">&#x27; la connexion</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> myReader <span style="color:#0000ff">As</span> OleDbDataReader = <span style="color:#0000ff">Nothing</span>        <span style="font-weight:bold;color:#ff0000">&#x27; le lecteur de données</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Zugriff auf die Datenbank wird versucht</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Try</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; base connection chain</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Verbindungszeichenfolge zur Datenbank</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> connectString <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;Provider=Microsoft.JET.OLEDB.4.0;Data Source=&quot; + dbArticles + &quot;;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn = <span style="color:#0000ff">New</span> OleDbConnection(connectString)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn.Open()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; execution of a SQL command</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Ausführung eines Befehls SQL</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> sqlText <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;select * from &quot; + tabArticles</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> myOleDbCommand <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> OleDbCommand(sqlText)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            myOleDbCommand.Connection = articlesConn</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            myReader = myOleDbCommand.ExecuteReader()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Using the recovered table</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; column display</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Auswertung der abgerufenen Tabelle</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Anzeige der Spalten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> ligne <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> i <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> (myReader.FieldCount - 1) - 1</span></span>
@@ -1373,9 +1374,9 @@
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Next</span> i</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            ligne += myReader.GetName(i)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Out.WriteLine((ControlChars.Lf + &quot;&quot;.PadLeft(ligne.Length, &quot;-&quot;c) + ControlChars.Lf + ligne + ControlChars.Lf + &quot;&quot;.PadLeft(ligne.Length, &quot;-&quot;c) + ControlChars.Lf))</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; data display</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Anzeige der Daten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">While</span> myReader.Read()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; current line operation</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Auswertung der aktuellen Zeile</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                ligne = &quot;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> myReader.FieldCount - 1</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    ligne += myReader(i).ToString + &quot; &quot;</span></span>
@@ -1386,12 +1387,12 @@
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Error.WriteLine((&quot;Erreur d&#x27;exploitation de la base de données (&quot; + ex.Message + &quot;)&quot;))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Environment.Exit(2)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Finally</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; drive lock</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Leser schließen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                myReader.Close()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; locking connection</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Verbindung schließen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                articlesConn.Close()</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; end</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Ende</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        Environment.Exit(0)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">End</span> <span style="color:#0000ff">Sub</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">End</span> <span style="color:#0000ff">Module</span></span></span>
@@ -1418,8 +1419,8 @@
 <a id="__codelineno-18-18" name="__codelineno-18-18" href="#__codelineno-18-18"></a>e300 combinaison de plongée         2800 34 7
 <a id="__codelineno-18-19" name="__codelineno-18-19" href="#__codelineno-18-19"></a>f300 bouteilles d&#39;oxygène           800 10 5
 </code></pre></div>
-<h3 id="734-eine-tabelle-aktualisieren">7.3.4. <span style="color: #4f81bd">Eine Tabelle aktualisieren</span></h3>
-<p>In den vorherigen Beispielen wurde lediglich der Inhalt einer Tabelle aufgelistet. Wir werden unser Programm zur Verwaltung der Produktdatenbank so anpassen, dass es die Datenbank ändern kann. Das Programm heißt <em>sql</em>. Wir übergeben den DSN-Namen der zu verwaltenden Produktdatenbank als Parameter. Der Benutzer gibt SQL-Befehle direkt über die Tastatur ein, die das Programm ausführt, wie die folgenden Ergebnisse aus der MySQL-Produktdatenbank zeigen:</p>
+<h3 id="734-aktualisierung-einer-tabelle">7.3.4. <span style="color: #4f81bd">Aktualisierung einer Tabelle</span></h3>
+<p>In den vorangegangenen Beispielen wurde lediglich der Inhalt einer Tabelle aufgelistet. Wir passen unser Programm zur Verwaltung der Artikelstammdaten so an, dass es diese auch ändern kann. Das Programm heißt <em>sql</em>. Als Parameter wird ihm der Name DSN der zu verwaltenden Artikelstammdaten übergeben. Der Benutzer gibt die Befehle SQL direkt über die Tastatur ein, und das Programm führt sie aus, wie die folgenden Ergebnisse zeigen, die anhand der Artikelstammdatenbank MySQL erzielt wurden:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="n">dos</span><span class="o">&gt;</span><span class="n">vbc</span><span class="w"> </span><span class="o">/</span><span class="n">r</span><span class="p">:</span><span class="n">microsoft</span><span class="p">.</span><span class="k">data</span><span class="p">.</span><span class="n">odbc</span><span class="p">.</span><span class="n">dll</span><span class="w"> </span><span class="k">sql</span><span class="p">.</span><span class="n">vb</span>
 <a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>
 <a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="n">dos</span><span class="o">&gt;</span><span class="k">sql</span><span class="w"> </span><span class="n">mysql</span><span class="o">-</span><span class="n">articles</span>
@@ -1512,12 +1513,12 @@
 <a id="__codelineno-19-90" name="__codelineno-19-90" href="#__codelineno-19-90"></a><span class="n">Requête</span><span class="w"> </span><span class="k">SQL</span><span class="w"> </span><span class="p">(</span><span class="n">fin</span><span class="w"> </span><span class="n">pour</span><span class="w"> </span><span class="n">arrêter</span><span class="p">)</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">fin</span>
 </code></pre></div>
 <p>Das Programm sieht wie folgt aus:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vbscript">
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; options</span></span>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vb.net">
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Optionen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Explicit</span> <span style="color:#0000ff">On</span> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Strict</span> <span style="color:#0000ff">On</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; namespaces</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Namensräume</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Data</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.Data.Odbc</span></span>
@@ -1525,84 +1526,84 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Text.RegularExpressions</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Collections</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.VisualBasic</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Module</span> db3</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Public</span> <span style="color:#0000ff">Sub</span> Main(<span style="color:#0000ff">ByVal</span> args() <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; application console</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; executes SQL requests typed on the keyboard on a </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; table ARTICLES from a database DSN whose name is passed as a parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Konsolenanwendung</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; führt über die Tastatur eingegebene Abfragen SQL auf einer </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Tabelle ARTICLES einer Datenbank DSN, deren Name als Parameter übergeben wird</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Const</span> syntaxe <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;syntaxe : pg dsnArticles&quot;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; parameter verification</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; do we have 2 parameters</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Überprüfung der Parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Gibt es 2 Parameter?</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">If</span> args.Length &lt;&gt; 1 <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; error msg</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Error.WriteLine(syntaxe)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; end</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Ende</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Environment.Exit(1)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        End If        &#x27;if</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; parameter is retrieved</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span>        <span style="font-weight:bold;color:#ff0000">&#x27;if</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Parameter wird abgerufen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> dsnArticles <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = args(0)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; base connection chain</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Verbindungszeichenfolge zur Datenbank</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> connectString <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;DSN=&quot; + dsnArticles + &quot;;&quot;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; preparing the connection to the comic</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Vorbereitung der Datenbankverbindung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> articlesConn <span style="color:#0000ff">As</span> OdbcConnection = <span style="color:#0000ff">Nothing</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> sqlCommand <span style="color:#0000ff">As</span> OdbcCommand = <span style="color:#0000ff">Nothing</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Try</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; attempt to access the database</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Versuch, auf die Datenbank zuzugreifen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn = <span style="color:#0000ff">New</span> OdbcConnection(connectString)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn.Open()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; create a command object</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; ein Befehlsobjekt wird erstellt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            sqlCommand = <span style="color:#0000ff">New</span> OdbcCommand(&quot;&quot;, articlesConn)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            &#x27;try</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Catch</span> ex <span style="color:#0000ff">As</span> Exception</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; error msg</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Error.WriteLine((&quot;Erreur d&#x27;exploitation de la base de données (&quot; + ex.Message + &quot;)&quot;))</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; freeing up resources</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Freigabe der Ressourcen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                articlesConn.Close()</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Catch</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Environment.Exit(2)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        End Try        &#x27;catch</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; build a dictionary of accepted sql commands</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span>        <span style="font-weight:bold;color:#ff0000">&#x27;catch</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Es wird ein Verzeichnis der akzeptierten SQL-Befehle erstellt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> commandesSQL() <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = {&quot;select&quot;, &quot;insert&quot;, &quot;update&quot;, &quot;delete&quot;}</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> dicoCommandes <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> Hashtable</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> i <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> commandesSQL.Length - 1</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            dicoCommandes.Add(commandesSQL(i), <span style="color:#0000ff">True</span>)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Next</span> i</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; read-execute SQL commands typed on the keyboard</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim requête As String = Nothing        &#x27; query text SQL</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim champs() As String        &#x27; query fields    </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Einlesen und Ausführen der über die Tastatur eingegebenen Befehle SQL</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> requête <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = <span style="color:#0000ff">Nothing</span>        <span style="font-weight:bold;color:#ff0000">&#x27; texte de la requête SQL</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> champs() <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>        <span style="font-weight:bold;color:#ff0000">&#x27; les champs de la requête    </span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> modèle <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> Regex(&quot;\s+&quot;)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; input-execution loop for SQL commands typed on keyboard</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Schleife zum Eingeben und Ausführen der über die Tastatur eingegebenen Befehle SQL</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">While</span> <span style="color:#0000ff">True</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; no error at start</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Zunächst keine Fehler</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> erreur <span style="color:#0000ff">As</span> <span style="color:#0000ff">Boolean</span> = <span style="color:#0000ff">False</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; request for query</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Abfrage der Anfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Out.Write(ControlChars.Lf + &quot;Requête SQL (fin pour arrêter) : &quot;)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            requête = Console.In.ReadLine().Trim().ToLower()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; finished?</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Fertig?</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">If</span> requête = &quot;fin&quot; <span style="color:#0000ff">Then</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">Exit</span> <span style="color:#0000ff">While</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; the query is broken down into fields</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Die Abfrage wird in Felder zerlegt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            champs = modèle.Split(requête)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; valid request?</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Gültige Anfrage?</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">If</span> champs.Length = 0 <span style="color:#0000ff">Or</span> <span style="color:#0000ff">Not</span> dicoCommandes.ContainsKey(champs(0)) <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; error msg</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                Console.Error.WriteLine(&quot;Requête invalide. Utilisez select, insert, update, delete&quot;)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; following request</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Nächste Abfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                erreur = <span style="color:#0000ff">True</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">If</span> <span style="color:#0000ff">Not</span> erreur <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; prepare the Command object to execute the request</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Vorbereitung des Command-Objekts zur Ausführung der Abfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                sqlCommand.CommandText = requête</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; query execution</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Ausführung der Anfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    <span style="color:#0000ff">If</span> champs(0) = &quot;select&quot; <span style="color:#0000ff">Then</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                        executeSelect(sqlCommand)</span></span>
@@ -1610,33 +1611,33 @@
 <span class="odt-code-line"><span class="odt-code-line-content">                        executeUpdate(sqlCommand)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">Catch</span> ex <span style="color:#0000ff">As</span> Exception</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                    &#x27; error msg</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                    &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    Console.Error.WriteLine((&quot;Erreur d&#x27;exploitation de la base de données (&quot; + ex.Message + &quot;)&quot;))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">While</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; freeing up resources</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Freigabe der Ressourcen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            articlesConn.Close()</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Catch</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        Environment.Exit(0)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">End</span> <span style="color:#0000ff">Sub</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; execute an update request</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; Ausführung einer Aktualisierungsanfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Sub</span> executeUpdate(<span style="color:#0000ff">ByVal</span> sqlCommand <span style="color:#0000ff">As</span> OdbcCommand)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; executes sqlCommand, update request</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; führt sqlCommand aus, Aktualisierungsabfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> nbLignes <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span> = sqlCommand.ExecuteNonQuery()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; display</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Anzeige</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        Console.Out.WriteLine((&quot;Il y a eu &quot; &amp; nbLignes &amp; &quot; ligne(s) modifiée(s)&quot;))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">End</span> <span style="color:#0000ff">Sub</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; executing a Select query</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; Ausführung einer Select-Abfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Sub</span> executeSelect(<span style="color:#0000ff">ByVal</span> sqlCommand <span style="color:#0000ff">As</span> OdbcCommand)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; executes sqlCommand, select query</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; führt sqlCommand aus, Select-Abfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> myReader <span style="color:#0000ff">As</span> OdbcDataReader = sqlCommand.ExecuteReader()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Using the recovered table</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; column display</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Auswertung der abgerufenen Tabelle</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Anzeige der Spalten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> ligne <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> i <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> (myReader.FieldCount - 1) - 1</span></span>
@@ -1644,30 +1645,30 @@
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Next</span> i</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        ligne += myReader.GetName(i)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        Console.Out.WriteLine((ControlChars.Lf + &quot;&quot;.PadLeft(ligne.Length, &quot;-&quot;c) + ControlChars.Lf + ligne + ControlChars.Lf + &quot;&quot;.PadLeft(ligne.Length, &quot;-&quot;c) + ControlChars.Lf))</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; data display</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Anzeige der Daten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">While</span> myReader.Read()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; current line operation</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Auswertung der aktuellen Zeile</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            ligne = &quot;&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">For</span> i = 0 <span style="color:#0000ff">To</span> myReader.FieldCount - 1</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                ligne += myReader(i).ToString + &quot; &quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Next</span> i</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; display</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Anzeige</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.WriteLine(ligne)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">While</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; freeing up resources</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Freigabe der Ressourcen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        myReader.Close()</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">End</span> <span style="color:#0000ff">Sub</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">End</span> <span style="color:#0000ff">Module</span></span></span>
 </code></pre></div>
 
-<p>Wir werden hier nur auf die Neuerungen im Vergleich zum vorherigen Programm eingehen:</p>
+<p>Wir gehen hier nur auf die Neuerungen gegenüber dem vorherigen Programm ein:</p>
 <ul>
-  <li>Wir erstellen ein Verzeichnis der zulässigen SQL-Befehle:
+  <li>Wir erstellen ein Wörterbuch der akzeptierten SQL-Befehle:
   </li>
 </ul>
 
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-sql">
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; on construit un dictionnaire des commandes sql acceptées</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Es wird ein Verzeichnis der akzeptierten SQL-Befehle erstellt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> commandesSQL() <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = {&quot;select&quot;, &quot;insert&quot;, &quot;update&quot;, &quot;delete&quot;}</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> dicoCommandes <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> Hashtable</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> i <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span></span></span>
@@ -1676,39 +1677,39 @@
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Next</span> i</span></span>
 </code></pre></div>
 
-<p>Dadurch können wir nun einfach prüfen, ob das erste Wort (<em>fields[0]</em>) der eingegebenen Abfrage einer der vier zulässigen Befehle ist:</p>
+<p>Dadurch können wir anschließend ganz einfach überprüfen, ob das erste Wort (<em>Feld [0]</em>) der eingegebenen Abfrage einer der vier zulässigen Befehle ist:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-sql">
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; requête valide ?</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Gültige Abfrage?</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">If</span> champs.Length = 0 <span style="color:#0000ff">Or</span> <span style="color:#0000ff">Not</span> dicoCommandes.ContainsKey(champs(0)) <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; msg d&#x27;erreur</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                Console.Error.WriteLine(&quot;Requête invalide. Utilisez select, insert, update, delete&quot;)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; requête suivante</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Nächste Abfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                erreur = <span style="color:#0000ff">True</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span>            &#x27;if</span></span>
 </code></pre></div>
 
 <ul>
-  <li>Zuvor war die Abfrage mithilfe der <i>Split</i>-Methode der RegEx-Klasse in Felder aufgeteilt worden:
+  <li>Zuvor war die Abfrage mithilfe der Methode <i>Split </i>der Klasse <i>RegEx </i>in Felder zerlegt worden:
   </li>
 </ul>
 
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-vbscript">
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> modèle <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> Regex(&quot;\s+&quot;)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">....</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; the query is broken down into fields</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Die Abfrage wird in Felder zerlegt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            champs = modèle.Split(requête)</span></span>
 </code></pre></div>
 
-<p>Die Wörter in der Abfrage können durch beliebig viele Leerzeichen getrennt sein.</p>
+<p>Die Wörter, aus denen die Abfrage besteht, können durch beliebig viele Leerzeichen voneinander getrennt sein.</p>
 <ul>
-  <li>Die Ausführung einer SELECT-Abfrage erfolgt nicht auf dieselbe Weise wie die Ausführung einer Aktualisierungsabfrage (<i>INSERT</i>, <i>UPDATE</i>, <i>DELETE</i>). Daher müssen wir eine Überprüfung durchführen und für jeden dieser beiden Fälle eine andere Funktion ausführen:
+  <li>Die Ausführung einer Abfrage <i>select </i>erfolgt nicht nach dem gleichen Verfahren wie die einer Aktualisierungsabfrage (<i>insert</i>, <i>update</i>, <i>delete</i>). Daher muss ein Test durchgeführt und für jeden dieser beiden Fälle eine andere Funktion ausgeführt werden:
   </li>
 </ul>
 
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-sql">
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; préparation de l&#x27;objet Command pour exécuter la requête</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Vorbereitung des Command-Objekts zur Ausführung der Abfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                sqlCommand.CommandText = requête</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; exécution de la requête</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Ausführung der Abfrage</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    <span style="color:#0000ff">If</span> champs(0) = &quot;select&quot; <span style="color:#0000ff">Then</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                        executeSelect(sqlCommand)</span></span>
@@ -1716,49 +1717,50 @@
 <span class="odt-code-line"><span class="odt-code-line-content">                        executeUpdate(sqlCommand)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span>                    &#x27;try</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">Catch</span> ex <span style="color:#0000ff">As</span> Exception</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                    &#x27; msg d&#x27;erreur</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                    &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    Console.Error.WriteLine((&quot;Erreur d&#x27;exploitation de la base de données (&quot; + ex.Message + &quot;)&quot;))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
 </code></pre></div>
 
-<p>Die Ausführung einer SQL-Abfrage kann eine Ausnahme auslösen, die hier behandelt wird.</p>
+<p>Die Ausführung einer Abfrage SQL kann eine Ausnahme auslösen, die hier behandelt wird.</p>
 <ul>
-  <li>Die Funktion <i>`executeSelect` </i>deckt alle Aspekte ab, die in den vorherigen Beispielen behandelt wurden.
+  <li>Die Funktion <i>executeSelect </i>greift alles auf, was in den vorherigen Beispielen behandelt wurde.
   </li>
-  <li>Die Funktion <i>`executeUpdate` </i>verwendet die Methode <i>`ExecuteNonQuery` </i>der Klasse `<i>OdbcCommand</i>`, die die Anzahl der vom Befehl betroffenen Zeilen zurückgibt.
+  <li>Die Funktion <i>executeUpdate </i>nutzt die Methode <i>ExecuteNonQuery </i>der Klasse <i>OdbcCommand</i>, die die Anzahl der vom Befehl betroffenen Zeilen zurückgibt.
   </li>
 </ul>
-<h3 id="735-steuerberechnung">7.3.5. <span style="color: #4f81bd">Steuerberechnung</span></h3>
-<p>Wir verwenden das in einem früheren Kapitel erstellte Steuerobjekt erneut:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vbscript">
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; options</span></span>
+
+<h3 id="735-impots">7.3.5. <span style="color: #4f81bd">IMPOTS</span></h3>
+<p>Wir greifen das in einem vorherigen Kapitel erstellte Objekt <em>impôt</em> wieder auf:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vb.net">
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Optionen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Strict</span> <span style="color:#0000ff">On</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Explicit</span> <span style="color:#0000ff">On</span> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; namespaces</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Namensräume</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Public</span> <span style="color:#0000ff">Class</span> impôt</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; data required for tax calculation</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; come from an external source</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; die für die Steuerberechnung erforderlichen Daten</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; stammen aus einer externen Quelle</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Private</span> limites(), coeffR(), coeffN() <span style="color:#0000ff">As</span> <span style="color:#0000ff">Decimal</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; manufacturer</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; Hersteller</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Public</span> <span style="color:#0000ff">Sub</span> <span style="color:#0000ff">New</span>(<span style="color:#0000ff">ByVal</span> LIMITES() <span style="color:#0000ff">As</span> <span style="color:#0000ff">Decimal</span>, <span style="color:#0000ff">ByVal</span> COEFFR() <span style="color:#0000ff">As</span> <span style="color:#0000ff">Decimal</span>, <span style="color:#0000ff">ByVal</span> COEFFN() <span style="color:#0000ff">As</span> <span style="color:#0000ff">Decimal</span>)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; we check that the 3 tablaeux are the same size</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Es wird überprüft, ob alle drei Tabellen dieselbe Größe haben</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> OK <span style="color:#0000ff">As</span> <span style="color:#0000ff">Boolean</span> = LIMITES.Length = COEFFR.Length <span style="color:#0000ff">And</span> LIMITES.Length = COEFFN.Length</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">If</span> <span style="color:#0000ff">Not</span> OK <span style="color:#0000ff">Then</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Throw</span> <span style="color:#0000ff">New</span> Exception(&quot;Les 3 tableaux fournis n&#x27;ont pas la même taille(&quot; &amp; LIMITES.Length &amp; &quot;,&quot; &amp; COEFFR.Length &amp; &quot;,&quot; &amp; COEFFN.Length &amp; &quot;)&quot;)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; it&#x27;s good</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; alles in Ordnung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Me</span>.limites = LIMITES</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Me</span>.coeffR = COEFFR</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Me</span>.coeffN = COEFFN</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">End</span> <span style="color:#0000ff">Sub</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; tAX CALCULATION</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; Berechnung der Steuer</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Public</span> <span style="color:#0000ff">Function</span> calculer(<span style="color:#0000ff">ByVal</span> marié <span style="color:#0000ff">As</span> <span style="color:#0000ff">Boolean</span>, <span style="color:#0000ff">ByVal</span> nbEnfants <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span>, <span style="color:#0000ff">ByVal</span> salaire <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span>) <span style="color:#0000ff">As</span> <span style="color:#0000ff">Long</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; calculating the number of shares</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Berechnung der Anzahl der Anteile</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> nbParts <span style="color:#0000ff">As</span> <span style="color:#0000ff">Decimal</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">If</span> marié <span style="color:#0000ff">Then</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            nbParts = <span style="color:#0000ff">CDec</span>(nbEnfants) / 2 + 2</span></span>
@@ -1768,66 +1770,66 @@
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">If</span> nbEnfants &gt;= 3 <span style="color:#0000ff">Then</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            nbParts += 0.5D</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; calculation of taxable income &amp; family quota</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Berechnung des zu versteuernden Einkommens und des Familienquotienten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> revenu <span style="color:#0000ff">As</span> <span style="color:#0000ff">Decimal</span> = 0.72D * salaire</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> QF <span style="color:#0000ff">As</span> <span style="color:#0000ff">Decimal</span> = revenu / nbParts</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; tAX CALCULATION</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Steuerberechnung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        limites((limites.Length - 1)) = QF + 1</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> i <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span> = 0</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">While</span> QF &gt; limites(i)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            i += 1</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">While</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; return result</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Ergebnisrückgabe</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Return</span> <span style="color:#0000ff">CLng</span>(revenu * coeffR(i) - nbParts * coeffN(i))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">End</span> <span style="color:#0000ff">Function</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">End</span> <span style="color:#0000ff">Class</span></span></span>
 </code></pre></div>
 
-<p>Wir fügen einen neuen Konstruktor hinzu, um die Limit-Arrays, <em>coeffR</em> und <em>coeffN</em> aus einer ODBC-Datenbank zu initialisieren:</p>
-<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
+<p>Wir fügen ihm einen neuen Konstruktor hinzu, mit dem die Arrays <em>limites</em>, <em>coeffR</em> und <em>coeffN</em> aus einer Datenbank ODBC initialisiert werden können:</p>
+<div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-vb.net">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Data</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.Data.Odbc</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System.Collections</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 </code></pre></div>
 
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-sql">
-<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; builder 2</span></span>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vb.net">
+<span class="odt-code-line"><span class="odt-code-line-content">    &#x27; Konstruktor 2</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Public</span> <span style="color:#0000ff">Sub</span> <span style="color:#0000ff">New</span>(<span style="color:#0000ff">ByVal</span> DSNimpots <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>, <span style="color:#0000ff">ByVal</span> Timpots <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>, <span style="color:#0000ff">ByVal</span> colLimites <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>, <span style="color:#0000ff">ByVal</span> colCoeffR <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>, <span style="color:#0000ff">ByVal</span> colCoeffN <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; initializes the three limit arrays, coeffR, coeffN from</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; the contents of the Timpots table in the ODBC DSNimpots database</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; colLimites, colCoeffR, colCoeffN are the three columns of this table</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; can throw an exception</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim connectString As String = &quot;DSN=&quot; + DSNimpots + &quot;;&quot;        &#x27; base connection chain</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim impotsConn As OdbcConnection = Nothing        &#x27; the connection</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        Dim sqlCommand As OdbcCommand = Nothing        &#x27; the SQL command</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; the SELECT query</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Initialisiert die drei Grenzwerttabellen coeffR, coeffN anhand</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; des Inhalts der Tabelle „Timpots“ aus der Datenbank ODBC DSNimpots</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; colLimites, colCoeffR, colCoeffN sind die drei Spalten dieser Tabelle</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; kann eine Ausnahme auslösen</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> connectString <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;DSN=&quot; + DSNimpots + &quot;;&quot;        <span style="font-weight:bold;color:#ff0000">&#x27; chaîne de connexion à la base</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> impotsConn <span style="color:#0000ff">As</span> OdbcConnection = <span style="color:#0000ff">Nothing</span>        <span style="font-weight:bold;color:#ff0000">&#x27; la connexion</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> sqlCommand <span style="color:#0000ff">As</span> OdbcCommand = <span style="color:#0000ff">Nothing</span>        <span style="font-weight:bold;color:#ff0000">&#x27; la commande SQL</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; die Abfrage SELECT</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> selectCommand <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;select &quot; + colLimites + &quot;,&quot; + colCoeffR + &quot;,&quot; + colCoeffN + &quot; from &quot; + Timpots</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; tables to retrieve data</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Tabellen zum Abrufen der Daten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> tLimites <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> ArrayList</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> tCoeffR <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> ArrayList</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> tCoeffN <span style="color:#0000ff">As</span> <span style="color:#0000ff">New</span> ArrayList</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; attempt to access the database</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Es wird versucht, auf die Datenbank zuzugreifen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        impotsConn = <span style="color:#0000ff">New</span> OdbcConnection(connectString)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        impotsConn.Open()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; create a command object</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; ein Befehlsobjekt wird erstellt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        sqlCommand = <span style="color:#0000ff">New</span> OdbcCommand(selectCommand, impotsConn)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; execute the query</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Die Abfrage wird ausgeführt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> myReader <span style="color:#0000ff">As</span> OdbcDataReader = sqlCommand.ExecuteReader()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Using the recovered table</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Auswertung der abgerufenen Tabelle</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">While</span> myReader.Read()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; the data of the current line are put in the tables</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Die Daten der aktuellen Zeile werden in die Arrays übertragen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            tLimites.Add(myReader(colLimites))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            tCoeffR.Add(myReader(colCoeffR))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            tCoeffN.Add(myReader(colCoeffN))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">While</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; freeing up resources</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Freigabe der Ressourcen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        myReader.Close()</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        impotsConn.Close()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; dynamic tables are placed in static tables</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Die dynamischen Arrays werden in statische Arrays übertragen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Me</span>.limites = <span style="color:#0000ff">New</span> <span style="color:#0000ff">Decimal</span>(tLimites.Count) {}</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Me</span>.coeffR = <span style="color:#0000ff">New</span> <span style="color:#0000ff">Decimal</span>(tLimites.Count) {}</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Me</span>.coeffN = <span style="color:#0000ff">New</span> <span style="color:#0000ff">Decimal</span>(tLimites.Count) {}</span></span>
@@ -1840,39 +1842,39 @@
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">End</span> <span style="color:#0000ff">Sub</span></span></span>
 </code></pre></div>
 
-<p>Das Testprogramm sieht wie folgt aus: Es erhält als Argumente die Parameter, die an den Konstruktor der Steuerklasse übergeben werden sollen. Nach der Erstellung eines Steuerobjekts berechnet es die fällige Steuer:</p>
-<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vbscript">
+<p>Das Testprogramm läuft wie folgt ab: Es erhält als Argumente die Parameter, die an den Konstruktor der Klasse <em>impôt</em> übergeben werden sollen. Nach der Erstellung eines Objekts <em>vom Typ impôt</em> führt es Berechnungen zur zu zahlenden Steuer durch:</p>
+<div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-vb.net">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Explicit</span> <span style="color:#0000ff">On</span> </span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Option</span> <span style="color:#0000ff">Strict</span> <span style="color:#0000ff">On</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; namespaces</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Namensräume</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> System</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Imports</span> Microsoft.VisualBasic</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&#x27; test pg</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&#x27; Test-PG</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">Module</span> testimpots</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#0000ff">Sub</span> Main(<span style="color:#0000ff">ByVal</span> arguments() <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; interactive tax calculator</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; the user enters three data points on the keyboard: married nbEnfants salary</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; the program then displays the tax payable</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Interaktives Programm zur Steuerberechnung</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Der Benutzer gibt drei Daten über die Tastatur ein: verheiratet nbEnfants Gehalt</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Das Programm zeigt daraufhin die zu zahlende Steuer an</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Const</span> syntaxe1 <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;pg DSNimpots tabImpots colLimites colCoeffR colCoeffN&quot;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Const</span> syntaxe2 <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = &quot;syntaxe : marié nbEnfants salaire&quot; + ControlChars.Lf + &quot;marié : o pour marié, n pour non marié&quot; + ControlChars.Lf + &quot;nbEnfants : nombre d&#x27;enfants&quot; + ControlChars.Lf + &quot;salaire : salaire annuel en F&quot;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; checking program parameters</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Überprüfung der Programmparameter</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">If</span> arguments.Length &lt;&gt; 5 <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; error msg</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Fehlermeldung</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Error.WriteLine(syntaxe1)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; end</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Ende</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Environment.Exit(1)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        End If        &#x27;if</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; retrieve the arguments</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span>        <span style="font-weight:bold;color:#ff0000">&#x27;if</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; die Argumente werden abgerufen</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> DSNimpots <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = arguments(0)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> tabImpots <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = arguments(1)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> colLimites <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = arguments(2)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> colCoeffR <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = arguments(3)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> colCoeffN <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = arguments(4)</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; tax object creation</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Erstellung eines Steuerobjekts</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Dim</span> objImpôt <span style="color:#0000ff">As</span> impôt = <span style="color:#0000ff">Nothing</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            objImpôt = <span style="color:#0000ff">New</span> impôt(DSNimpots, tabImpots, colLimites, colCoeffR, colCoeffN)</span></span>
@@ -1880,22 +1882,22 @@
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Error.WriteLine((&quot;L&#x27;erreur suivante s&#x27;est produite : &quot; + ex.Message))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Environment.Exit(2)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; infinite loop</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        &#x27; Endlosschleife</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">While</span> <span style="color:#0000ff">True</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; initially no errors</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; zunächst keine Fehler</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> erreur <span style="color:#0000ff">As</span> <span style="color:#0000ff">Boolean</span> = <span style="color:#0000ff">False</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; tax calculation parameters are requested</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; die Parameter für die Steuerberechnung werden abgefragt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            Console.Out.Write(&quot;Paramètres du calcul de l&#x27;impôt au format marié nbEnfants salaire ou rien pour arrêter :&quot;)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> paramètres <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span> = Console.In.ReadLine().Trim()</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; anything to do?</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Was ist zu tun?</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">If</span> paramètres <span style="color:#0000ff">Is</span> <span style="color:#0000ff">Nothing</span> <span style="color:#0000ff">Or</span> paramètres = &quot;&quot; <span style="color:#0000ff">Then</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">Exit</span> <span style="color:#0000ff">While</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; check the number of arguments in the input line</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">            &#x27; Überprüfung der Anzahl der Argumente in der eingegebenen Zeile</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> args <span style="color:#0000ff">As</span> <span style="color:#0000ff">String</span>() = paramètres.Split(<span style="color:#0000ff">Nothing</span>)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> nbParamètres <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span> = args.Length</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">If</span> nbParamètres &lt;&gt; 3 <span style="color:#0000ff">Then</span></span></span>
@@ -1906,8 +1908,8 @@
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> nbEnfants <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">Dim</span> salaire <span style="color:#0000ff">As</span> <span style="color:#0000ff">Integer</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">If</span> <span style="color:#0000ff">Not</span> erreur <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; checking parameter validity</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; married</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Überprüfung der Gültigkeit der Parameter</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; verheiratet</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                marié = args(0).ToLower()</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">If</span> marié &lt;&gt; &quot;o&quot; <span style="color:#0000ff">And</span> marié &lt;&gt; &quot;n&quot; <span style="color:#0000ff">Then</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    Console.Error.WriteLine((syntaxe2 + ControlChars.Lf + &quot;Argument marié incorrect : tapez o ou n&quot;))</span></span>
@@ -1924,7 +1926,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content">                    Console.Error.WriteLine(syntaxe2 + &quot;\nArgument nbEnfants incorrect : tapez un entier positif ou nul&quot;)</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    erreur = <span style="color:#0000ff">True</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; salary</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Gehalt</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                salaire = 0</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                    salaire = <span style="color:#0000ff">Integer</span>.Parse(args(2))</span></span>
@@ -1937,7 +1939,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content">                <span style="color:#0000ff">End</span> <span style="color:#0000ff">Try</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">If</span> <span style="color:#0000ff">Not</span> erreur <span style="color:#0000ff">Then</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; parameters are correct - tax is calculated</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                &#x27; Die Parameter sind korrekt – die Steuer wird berechnet</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">                Console.Out.WriteLine((&quot;impôt=&quot; &amp; objImpôt.calculer(marié = &quot;o&quot;, nbEnfants, salaire).ToString + &quot; F&quot;))</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">            <span style="color:#0000ff">End</span> <span style="color:#0000ff">If</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#0000ff">End</span> <span style="color:#0000ff">While</span></span></span>
@@ -1945,7 +1947,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">End</span> <span style="color:#0000ff">Module</span></span></span>
 </code></pre></div>
 
-<p>Die verwendete Datenbank ist eine MySQL-Datenbank mit dem DSN-Namen <em>mysql-imports</em>:</p>
+<p>Als Basis wird eine Datenbank mit dem Namen DSN <em>mysql-impots</em> verwendet:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="k">C</span><span class="p">:</span><span class="err">\</span><span class="n">mysql</span><span class="err">\</span><span class="n">bin</span><span class="o">&gt;</span><span class="n">mysql</span><span class="w"> </span><span class="c1">--database=impots --user=admimpots --password=mdpimpots</span>
 <a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="n">Welcome</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">MySQL</span><span class="w"> </span><span class="n">monitor</span><span class="p">.</span><span class="w">  </span><span class="n">Commands</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="err">\</span><span class="k">g</span><span class="p">.</span>
 <a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="n">Your</span><span class="w"> </span><span class="n">MySQL</span><span class="w"> </span><span class="k">connection</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">server</span><span class="w"> </span><span class="k">version</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">.</span><span class="mi">23</span><span class="p">.</span><span class="mi">49</span><span class="o">-</span><span class="k">max</span><span class="o">-</span><span class="n">debug</span>
